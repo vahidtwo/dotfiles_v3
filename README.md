@@ -5,11 +5,40 @@ A comprehensive dotfiles repository for backing up and restoring your entire Lin
 ## Features
 
 - 🔄 **Automated Backup & Restore**: One-command setup for new machines
-- 📦 **Package Management**: Exports/imports all installed packages (apt/dnf/pacman, Flatpak, Snap, pip)
+- 📦 **Package Management**: Exports/imports all installed packages (apt/dnf/pacman, Flatpak, Snap, pip, npm, cargo)
 - 🎨 **GNOME Desktop**: Saves extensions, themes, keybindings, and dconf settings
 - ⚙️ **Application Configs**: Manages dotfiles using GNU Stow for symlink management
+- 💻 **IDE Support**: Backs up PyCharm, VS Code, Cursor, and all JetBrains IDEs
+- 🎯 **Editor Configs**: Vim, Neovim, LunarVim configurations
+- 🎨 **Prompt Themes**: Oh-My-Posh configuration and themes
 - 🔒 **Secure**: Excludes sensitive data with `.gitignore` patterns
 - 🐧 **Multi-distro**: Works with Ubuntu, Fedora, Arch, and derivatives
+
+## What's Backed Up
+
+### Editors & IDEs ✅
+- **Vim, Neovim, LunarVim** - Full configurations
+- **VS Code & Cursor** - Settings, keybindings, snippets, extensions
+- **JetBrains IDEs** - PyCharm, IntelliJ IDEA settings and plugins
+- **IdeaVim** - Vim emulation settings for JetBrains IDEs
+
+### Shell & Terminal ✅
+- **Zsh & Bash** - Shell configurations
+- **Oh-My-Posh** - Prompt theme engine configurations
+- **Kitty, Alacritty, Terminator** - Terminal emulator configs
+- **Tmux** - Terminal multiplexer settings
+
+### Tools & Utilities ✅
+- **Git** - Global git configuration
+- **Htop, Btop** - System monitors
+- **Ranger** - File manager
+- **Atuin** - Shell history sync
+
+### Desktop Environment ✅
+- **GNOME** - All settings, extensions, keybindings
+- **GTK** - Theme configurations
+
+See [BACKUP-GUIDE.md](BACKUP-GUIDE.md) for complete details.
 
 ## Quick Start
 
@@ -58,9 +87,20 @@ The script will:
 dotfiles_v3/
 ├── configs/          # Application configurations
 │   ├── zsh/         # Zsh configuration
+│   ├── bash/        # Bash configuration
 │   ├── git/         # Git configuration
-│   ├── vim/         # Vim/Neovim configuration
+│   ├── vim/         # Vim configuration
+│   ├── nvim/        # Neovim configuration
+│   ├── lvim/        # LunarVim configuration
 │   ├── vscode/      # VS Code settings
+│   ├── cursor/      # Cursor AI editor
+│   ├── jetbrains/   # PyCharm, IntelliJ IDEA, etc.
+│   ├── oh-my-posh/  # Oh-My-Posh prompt themes
+│   ├── kitty/       # Kitty terminal
+│   ├── alacritty/   # Alacritty terminal
+│   ├── htop/        # System monitor
+│   ├── btop/        # Better system monitor
+│   ├── atuin/       # Shell history sync
 │   └── ...
 ├── gnome/           # GNOME desktop environment
 │   ├── extensions/  # Extension list and settings
@@ -69,13 +109,17 @@ dotfiles_v3/
 │   ├── apt.txt      # APT packages
 │   ├── flatpak.txt  # Flatpak applications
 │   ├── snap.txt     # Snap packages
-│   └── pip.txt      # Python packages
+│   ├── pip.txt      # Python packages
+│   ├── npm.txt      # Node.js packages
+│   └── cargo.txt    # Rust packages
 ├── scripts/         # Installation and backup scripts
 │   ├── backup.sh           # Backup current system
 │   ├── install-packages.sh # Install all packages
 │   ├── setup-gnome.sh      # Restore GNOME settings
+│   ├── link-configs.sh     # Symlink configurations
 │   └── utils.sh            # Utility functions
 ├── install.sh       # Main installation script
+├── BACKUP-GUIDE.md  # Detailed backup documentation
 └── README.md        # This file
 ```
 

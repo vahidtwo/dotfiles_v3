@@ -145,11 +145,22 @@ backup_configs() {
         ".vimrc:vim/.vimrc"
         ".vim:vim/.vim"
         ".config/nvim:nvim/.config/nvim"
+        ".config/lvim:lvim/.config/lvim"
+        ".ideavimrc:vim/.ideavimrc"
 
         # VS Code
         ".config/Code/User/settings.json:vscode/.config/Code/User/settings.json"
         ".config/Code/User/keybindings.json:vscode/.config/Code/User/keybindings.json"
         ".config/Code/User/snippets:vscode/.config/Code/User/snippets"
+
+        # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+        ".config/JetBrains:jetbrains/.config/JetBrains"
+        ".ideavimrc:jetbrains/.ideavimrc"
+        "pycharm-settings:jetbrains/pycharm-settings"
+
+        # Oh-My-Posh
+        ".oh-my-posh.conf.toml:oh-my-posh/.oh-my-posh.conf.toml"
+        ".config/ohmyposh:oh-my-posh/.config/ohmyposh"
 
         # Terminal emulators
         ".config/alacritty:alacritty/.config/alacritty"
@@ -162,6 +173,8 @@ backup_configs() {
         ".tmux.conf:tmux/.tmux.conf"
         ".config/htop:htop/.config/htop"
         ".config/ranger:ranger/.config/ranger"
+        ".config/btop:btop/.config/btop"
+        ".config/atuin:atuin/.config/atuin"
     )
 
     for config in "${configs[@]}"; do
@@ -179,6 +192,43 @@ backup_configs() {
         log_info "Exporting VS Code extensions..."
         ensure_dir "$config_dir/vscode"
         code --list-extensions > "$config_dir/vscode/extensions.txt"
+    fi
+
+    # Export Cursor extensions list (if different from VS Code)
+    if command_exists cursor; then
+        log_info "Exporting Cursor extensions..."
+        ensure_dir "$config_dir/cursor"
+        cursor --list-extensions > "$config_dir/cursor/extensions.txt" 2>/dev/null || true
+    fi
+
+    # Export JetBrains plugins list
+    if [ -d "$HOME/.config/JetBrains" ]; then
+        log_info "Exporting JetBrains plugins..."
+        ensure_dir "$config_dir/jetbrains"
+
+        # Find the latest PyCharm version directory
+        local pycharm_dir=$(find "$HOME/.config/JetBrains" -maxdepth 1 -type d -name "PyCharm*" | sort -V | tail -1)
+        if [ -n "$pycharm_dir" ] && [ -d "$pycharm_dir/plugins" ]; then
+            ls "$pycharm_dir/plugins" > "$config_dir/jetbrains/pycharm-plugins.txt" 2>/dev/null || true
+        fi
+
+        # Find the latest IntelliJ IDEA version directory
+        local idea_dir=$(find "$HOME/.config/JetBrains" -maxdepth 1 -type d -name "IntelliJIdea*" | sort -V | tail -1)
+        if [ -n "$idea_dir" ] && [ -d "$idea_dir/plugins" ]; then
+            ls "$idea_dir/plugins" > "$config_dir/jetbrains/idea-plugins.txt" 2>/dev/null || true
+        fi
+    fi
+
+    # Export Oh-My-Posh themes and config
+    if command_exists oh-my-posh; then
+        log_info "Exporting Oh-My-Posh configuration..."
+        ensure_dir "$config_dir/oh-my-posh"
+        oh-my-posh version > "$config_dir/oh-my-posh/version.txt" 2>/dev/null || true
+
+        # Note which theme is being used (if we can extract it from config)
+        if [ -f "$HOME/.oh-my-posh.conf.toml" ]; then
+            grep -i "theme" "$HOME/.oh-my-posh.conf.toml" > "$config_dir/oh-my-posh/active-theme.txt" 2>/dev/null || true
+        fi
     fi
 
     log_success "Application configs backed up to $config_dir"

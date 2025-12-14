@@ -53,22 +53,6 @@ main() {
     print_step "Step 1: Verify repository location"
     echo "Current location: $SCRIPT_DIR"
 
-    if [ "$SCRIPT_DIR" != "$HOME/dotfiles" ]; then
-        print_warning "Recommended location is ~/dotfiles"
-        if confirm "Do you want to move this repository to ~/dotfiles?"; then
-            if [ -d "$HOME/dotfiles" ]; then
-                echo "~/dotfiles already exists. Please move it manually."
-                exit 1
-            fi
-            mv "$SCRIPT_DIR" "$HOME/dotfiles"
-            echo "Repository moved to ~/dotfiles"
-            echo "Please run this script again from the new location:"
-            echo "  cd ~/dotfiles && ./scripts/first-setup.sh"
-            exit 0
-        fi
-    else
-        print_info "✓ Repository is in the recommended location"
-    fi
     echo ""
 
     # Step 2: Make scripts executable

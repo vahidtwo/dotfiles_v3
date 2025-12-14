@@ -89,10 +89,18 @@ stow -t ~ git
 ### Editors
 - **vim**: Vim editor
 - **nvim**: Neovim
+- **lvim**: LunarVim
 - **vscode**: Visual Studio Code
+- **cursor**: Cursor AI editor
+- **jetbrains**: JetBrains IDEs (PyCharm, IntelliJ IDEA, etc.)
 
 ### Version Control
 - **git**: Git configuration
+
+### Shell & Prompt
+- **bash**: Bash shell configuration
+- **zsh**: Zsh shell configuration
+- **oh-my-posh**: Oh My Posh prompt theme engine
 
 ### Terminal Emulators
 - **alacritty**: Alacritty terminal
@@ -102,7 +110,9 @@ stow -t ~ git
 ### Tools
 - **tmux**: Terminal multiplexer
 - **htop**: Process viewer
+- **btop**: Modern process viewer
 - **ranger**: File manager
+- **atuin**: Shell history sync
 
 ### Desktop
 - **gtk-3.0**: GTK 3 themes
