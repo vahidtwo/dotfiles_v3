@@ -32,6 +32,9 @@
 **/jetbrains/.config/JetBrains/**/uiDesigner.xml
 **/jetbrains/.config/JetBrains/**/dbnavigator.xml
 **/jetbrains/.config/JetBrains/**/consoles/
+**/jetbrains/.config/JetBrains/**/settingsSync/
+**/jetbrains/.config/JetBrains/**/.git/
+**/.git/
 
 # Git sensitive data
 **/git/.gitconfig.local
