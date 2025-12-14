@@ -1,0 +1,44 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/DjangoProject" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/loucust" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject1" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject1/tests" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/throttling" value="true" />
+        <entry key="$USER_HOME$/minio-files" value="true" />
+        <entry key="$USER_HOME$/minio-fils" value="true" />
+        <entry key="$USER_HOME$/p/api-docs" value="true" />
+        <entry key="$USER_HOME$/p/automation" value="true" />
+        <entry key="$USER_HOME$/p/bank-test-scripts" value="true" />
+        <entry key="$USER_HOME$/p/checkout-service" value="true" />
+        <entry key="$USER_HOME$/p/coordinator" value="true" />
+        <entry key="$USER_HOME$/p/enigma" value="true" />
+        <entry key="$USER_HOME$/p/enigma-mocks" value="true" />
+        <entry key="$USER_HOME$/p/ganza" value="true" />
+        <entry key="$USER_HOME$/p/gooyal_accounts" value="true" />
+        <entry key="$USER_HOME$/p/harmony" value="true" />
+        <entry key="$USER_HOME$/p/settlement" value="true" />
+        <entry key="$USER_HOME$/p/statement" value="true" />
+        <entry key="$USER_HOME$/p/swap" value="true" />
+        <entry key="$USER_HOME$/p/throttling" value="true" />
+        <entry key="$USER_HOME$/pp/4comers-backend" value="true" />
+        <entry key="$USER_HOME$/pp/khaliforushi" value="true" />
+        <entry key="$USER_HOME$/pp/skylog-sdk" value="true" />
+        <entry key="$USER_HOME$/tmp/tejarat-saga-orchestrator" value="true" />
+        <entry key="$USER_HOME$/tmp/urlshortner" value="true" />
+        <entry key="$USER_HOME$/tmp/urlshortner/django-version" value="true" />
+        <entry key="$USER_HOME$/tmp/wallet_service" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/p" />
+      </list>
+    </option>
+  </component>
+</application>

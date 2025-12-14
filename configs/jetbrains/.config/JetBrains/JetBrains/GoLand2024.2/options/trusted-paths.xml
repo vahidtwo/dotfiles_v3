@@ -1,0 +1,13 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/GolandProjects/Tuterial" value="true" />
+        <entry key="$USER_HOME$/GolandProjects/awesomeProject" value="true" />
+        <entry key="$USER_HOME$/GolandProjects/awesomeProject1" value="true" />
+        <entry key="$USER_HOME$/p/go/goblog" value="true" />
+        <entry key="$USER_HOME$/p/go/guardiancore" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

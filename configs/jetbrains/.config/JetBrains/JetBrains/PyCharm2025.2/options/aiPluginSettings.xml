@@ -1,0 +1,17 @@
+<application>
+  <component name="AiPluginSettings">
+    <option name="gcpProjectByEmail">
+      <map>
+        <entry key="vahidtwo@gmail.com">
+          <value>
+            <GcpProjectSettings>
+              <option name="gcpProjectId" value="orbital-surge-394414" />
+              <option name="gcpProjectName" value="My First Project" />
+            </GcpProjectSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="shortcutNotificationShown" value="true" />
+  </component>
+</application>

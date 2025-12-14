@@ -1,0 +1,736 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/p/enigma-mocks">
+          <value>
+            <RecentProjectMetaInfo frameTitle="enigma-mocks – settings.py" projectWorkspaceId="2fobQiHxlu2iYZM1ic0Goqq3sDF">
+              <option name="activationTimestamp" value="1715967771865" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="260" y="60" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1714492067045" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/bank-test-scripts">
+          <value>
+            <RecentProjectMetaInfo frameTitle="bank-test-scripts – get_balance.bash" projectWorkspaceId="2iucUAxQO7XdRdW1kdSfpmRPrfm">
+              <option name="activationTimestamp" value="1722938833046" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="643" y="40" width="1440" height="780" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1722937476806" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/loucust">
+          <value>
+            <RecentProjectMetaInfo frameTitle="loucust – checkout.py" projectWorkspaceId="2kHS7E2ncaJzvUcS4zK5TSuqIHq">
+              <option name="activationTimestamp" value="1722949218885" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="260" y="60" width="1400" height="1000" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1722938839715" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="pythonProject – main.py" projectWorkspaceId="2es4dFnCbFBLqDU0f2vYPmJdx4W">
+              <option name="activationTimestamp" value="1725194795077" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="0" y="24" width="1920" height="1056" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1725194784291" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/throttling">
+          <value>
+            <RecentProjectMetaInfo frameTitle="throttling – urls.py" projectWorkspaceId="2mhnpPtnw4FM1S0Oa4hyDDaFXWM">
+              <option name="activationTimestamp" value="1727541230510" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="0" y="24" width="1720" height="1416" extendedState="4" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1727537857519" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/throttling">
+          <value>
+            <RecentProjectMetaInfo frameTitle="throttling [~/PycharmProjects/throttling]" projectWorkspaceId="2mhnZt37ov0CeLoFqnVw4SjVS0m">
+              <option name="activationTimestamp" value="1727539732659" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="1720" y="24" width="1720" height="1416" extendedState="4" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1727538270380" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/tmp/urlshortner/fastapi-version">
+          <value>
+            <RecentProjectMetaInfo frameTitle="fastapi-version – start.sh" projectWorkspaceId="2nvUZwqSXYUMGLGXskbtlbWPUhH">
+              <option name="activationTimestamp" value="1729865674082" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="0" y="24" width="1920" height="1056" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1729853102741" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/tmp/tejarat-saga-orchestrator">
+          <value>
+            <RecentProjectMetaInfo frameTitle="tejarat-saga-orchestrator" projectWorkspaceId="2nf18fywvxwYmlTKRzS42WEBelu">
+              <option name="activationTimestamp" value="1729925084766" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="1017" y="232" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1729854163444" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/tmp/urlshortner">
+          <value>
+            <RecentProjectMetaInfo frameTitle="urlshortner – README.md" projectWorkspaceId="2nqA34o6ttFaKeUNt1OIsRDIIY1">
+              <option name="activationTimestamp" value="1729866712928" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="260" y="52" width="1400" height="1000" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1729865674507" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject1/tests">
+          <value>
+            <RecentProjectMetaInfo frameTitle="tests [~/PycharmProjects/pythonProject1/tests]" projectWorkspaceId="2ipmHGmqRBUTx0ZjqKQNpNmOXM2">
+              <option name="activationTimestamp" value="1731151887155" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="0" y="24" width="1720" height="1416" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1731151327048" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/automation">
+          <value>
+            <RecentProjectMetaInfo frameTitle="automation" projectWorkspaceId="2ovAhvfTvJiN97AiGKnk9iPvlUw">
+              <option name="activationTimestamp" value="1731739904052" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-241.14494.241" />
+              <option name="buildTimestamp" value="1711620600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="0" y="24" width="3440" height="1416" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1731739798213" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/tmp/wallet_service">
+          <value>
+            <RecentProjectMetaInfo frameTitle="wallet_service – transaction_handler.py" projectWorkspaceId="2p4dusuuxtkoQeTRgcjWtDX0s0V">
+              <option name="activationTimestamp" value="1732029686177" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.21565.199" />
+              <option name="buildTimestamp" value="1731482940000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="260" y="40" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1732029507514" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/pp/4comers-backend">
+          <value>
+            <RecentProjectMetaInfo frameTitle="4comers-backend – views.py" projectWorkspaceId="2nytTpFtHhjzsdC0qGkcikROl23">
+              <option name="activationTimestamp" value="1732037429076" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.21565.199" />
+              <option name="buildTimestamp" value="1731482940000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="0" y="24" width="1920" height="1056" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1732037417877" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/coordinator">
+          <value>
+            <RecentProjectMetaInfo frameTitle="coordinator – docker-compose.yml" projectWorkspaceId="2fiwDzKZrUtC5wYX9NuFkE2r1AG">
+              <option name="activationTimestamp" value="1734521189548" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.21565.199" />
+              <option name="buildTimestamp" value="1731482940000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="260" y="60" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1734520815287" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/tmp/urlshortner/django-version">
+          <value>
+            <RecentProjectMetaInfo frameTitle="django-version – README.md" projectWorkspaceId="2nvZOMPvbincog4xn1JQpQ9Un8E">
+              <option name="activationTimestamp" value="1734791573191" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.22562.220" />
+              <option name="buildTimestamp" value="1734509820000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="39" y="413" width="1400" height="1000" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1734791538571" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/minio-fils">
+          <value>
+            <RecentProjectMetaInfo frameTitle="minio-fils – 2.parquet" projectWorkspaceId="2rCkX0z6nhO2D2VEw7D3mfPj2pF">
+              <option name="activationTimestamp" value="1736071013449" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.22562.220" />
+              <option name="buildTimestamp" value="1734509820000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="1020" y="232" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1736070479931" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/minio-files">
+          <value>
+            <RecentProjectMetaInfo frameTitle="minio-files – IPG.parquet" projectWorkspaceId="2rCm0cqlZrbGYlOND3867YZIA6X">
+              <option name="activationTimestamp" value="1736071208383" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.22562.220" />
+              <option name="buildTimestamp" value="1734509820000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="1020" y="232" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1736071208557" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/pp/vuid">
+          <value>
+            <RecentProjectMetaInfo frameTitle="vuid – Makefile" projectWorkspaceId="2skVg9TvT5wBFLbNgVPXquT1jVx">
+              <option name="activationTimestamp" value="1739783136575" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.24978.54" />
+              <option name="buildTimestamp" value="1739396100000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="0" y="32" width="3440" height="1408" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1739783137264" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/harmony/.reasorces/pydis">
+          <value>
+            <RecentProjectMetaInfo frameTitle="pydis – select_trino_lakekeeper.py" projectWorkspaceId="2slKYEFhicMzdRLBQQy33cEtpDf">
+              <option name="activationTimestamp" value="1739950878063" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.24978.54" />
+              <option name="buildTimestamp" value="1739396100000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="0" y="32" width="3440" height="1408" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1739894099201" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/etam">
+          <value>
+            <RecentProjectMetaInfo frameTitle="etam – models.py" projectWorkspaceId="2v1srQXA3GKI4it61oeH6WRu3Vn">
+              <option name="activationTimestamp" value="1743336503900" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-243.26053.29" />
+              <option name="buildTimestamp" value="1742247480000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="260" y="56" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1743324112517" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/api-docs">
+          <value>
+            <RecentProjectMetaInfo frameTitle="api-docs – .dockerignore" projectWorkspaceId="2f8fKx1hzueSXlcM2WOLL54EGGJ">
+              <option name="activationTimestamp" value="1745229469789" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-251.23774.444" />
+              <option name="buildTimestamp" value="1744679160000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="1720" y="48" width="1720" height="1392" extendedState="4" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1745226146195" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/ganza">
+          <value>
+            <RecentProjectMetaInfo frameTitle="ganza" projectWorkspaceId="2rZlFePyJcmUPGTEvcS8A7dWWrf">
+              <option name="activationTimestamp" value="1747331636616" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-251.25410.159" />
+              <option name="buildTimestamp" value="1747240140000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="0" y="48" width="3440" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1747328743179" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/statement">
+          <value>
+            <RecentProjectMetaInfo frameTitle="statement – pasargad.py" projectWorkspaceId="2obSaur56w7f3N1n5XZ08UsxlmX">
+              <option name="activationTimestamp" value="1749483446239" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-251.25410.159" />
+              <option name="buildTimestamp" value="1747240140000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="470" y="1710" width="2580" height="1044" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1749464401464" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/harmony/.venv/lib/python3.13/site-packages/unfold">
+          <value>
+            <RecentProjectMetaInfo frameTitle="unfold – change_list_actions.html" projectWorkspaceId="2zBULyH4EGnlEriGhMU8KvDGtFN">
+              <option name="activationTimestamp" value="1751358844768" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-251.26094.141" />
+              <option name="buildTimestamp" value="1749567540000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="676" y="1472" width="1920" height="1048" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1751356760232" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/pp/tile-generator">
+          <value>
+            <RecentProjectMetaInfo frameTitle="tile-generator – generate_toman_commits.py" projectWorkspaceId="308YMyegJD7y4R5r0iGxw9XLGXg">
+              <option name="activationTimestamp" value="1753012080285" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-251.26927.90" />
+              <option name="buildTimestamp" value="1752134100000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="0" y="32" width="1920" height="1048" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1753010622994" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/report">
+          <value>
+            <RecentProjectMetaInfo frameTitle="report – Tech-Tir1404.md" projectWorkspaceId="30RjQ7rD7PjzTdiYBNOECWUA8zQ">
+              <option name="activationTimestamp" value="1753598771295" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-251.26927.90" />
+              <option name="buildTimestamp" value="1752134100000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="765" y="56" width="1910" height="1376" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1753597260924" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/pp/khaliforushi">
+          <value>
+            <RecentProjectMetaInfo frameTitle="khaliforushi – ravi.py" projectWorkspaceId="2qodxq4mw0jsFEcZIwIwptJ4vIG">
+              <option name="activationTimestamp" value="1754993194544" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.23892.439" />
+              <option name="buildTimestamp" value="1754290920000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="0" y="48" width="3440" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1754989604441" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/escrow-agw-conf">
+          <value>
+            <RecentProjectMetaInfo frameTitle="escrow-agw-conf – backoffice.tmpl" projectWorkspaceId="31mQQxY4KvTJptDHrRatKdVhmKw">
+              <option name="activationTimestamp" value="1756195769745" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.23892.515" />
+              <option name="buildTimestamp" value="1754946240000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="0" y="48" width="3440" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1756189178779" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/new-api-doc">
+          <value>
+            <RecentProjectMetaInfo frameTitle="new-api-doc [~/p/new-api-doc] – /home/vahidtwo/p/new-api-doc/mkdocs.yml" projectWorkspaceId="2w1weBA2vR5PAoT5OJdEPqFPZVK">
+              <option name="activationTimestamp" value="1757745348269" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.25557.178" />
+              <option name="buildTimestamp" value="1756841760000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="1226" y="48" width="1720" height="1392" extendedState="4" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1757745332653" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/pp/skylog-sdk">
+          <value>
+            <RecentProjectMetaInfo frameTitle="skylog-sdk [~/pp/skylog-sdk] – /home/vahidtwo/pp/skylog-sdk/docs/index.md" projectWorkspaceId="2rf94LAAY0CI3nZp6PJbslOAbeO">
+              <option name="activationTimestamp" value="1758028033352" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.25557.178" />
+              <option name="buildTimestamp" value="1756841760000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="0" y="32" width="1920" height="1048" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1758025658280" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/toman-pay-backend">
+          <value>
+            <RecentProjectMetaInfo frameTitle="toman-pay-backend [~/p/toman-pay-backend] – /home/vahidtwo/p/toman-pay-backend/DEVOPS.md" projectWorkspaceId="32xVaygpycv9KBrjgrxlzbCxESu">
+              <option name="activationTimestamp" value="1758529537395" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.25557.178" />
+              <option name="buildTimestamp" value="1756841760000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="0" y="220" width="3440" height="1000" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1758527906539" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/settlement">
+          <value>
+            <RecentProjectMetaInfo frameTitle="settlement [~/p/settlement] – /home/vahidtwo/p/settlement/toman_settlement/settings/default.py" projectWorkspaceId="2f848YRgF5LRyzUH3DoeTD8eUlu">
+              <option name="activationTimestamp" value="1758954705022" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.26199.168" />
+              <option name="buildTimestamp" value="1758212940000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="1720" y="48" width="1720" height="1392" extendedState="4" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1758954509676" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/enigma">
+          <value>
+            <RecentProjectMetaInfo frameTitle="enigma [~/p/enigma] – /home/vahidtwo/p/enigma/.gitlab-ci.yml" projectWorkspaceId="2eu7Quvv48p10RhUbt6Z2Lf9Gww">
+              <option name="activationTimestamp" value="1759832962670" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.26830.99" />
+              <option name="buildTimestamp" value="1759428900000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="1720" y="48" width="1720" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1759832892008" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/internal-api-docs">
+          <value>
+            <RecentProjectMetaInfo frameTitle="internal-api-docs [~/p/internal-api-docs] – /home/vahidtwo/p/internal-api-docs/docs/services/toman-pay/proposal_of_rewrite.md" projectWorkspaceId="2yEMxKYGIYHW3aV2zTGfNcTUUUF">
+              <option name="activationTimestamp" value="1759911329416" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.26830.99" />
+              <option name="buildTimestamp" value="1759428900000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="0" y="48" width="3440" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1759911187891" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/checkout-service">
+          <value>
+            <RecentProjectMetaInfo frameTitle="checkout-service [~/p/checkout-service] – /home/vahidtwo/p/checkout-service/toman_checkout_service/urls.py" projectWorkspaceId="2iXu2eDzfcRHoQIAJkDd01kEF1L">
+              <option name="activationTimestamp" value="1762863636220" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="0" y="48" width="3440" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1762863637002" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/DjangoProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="DjangoProject [~/PycharmProjects/DjangoProject] – /home/vahidtwo/PycharmProjects/DjangoProject/social/relations_handlers.py" projectWorkspaceId="2qWwXOP5m57zD2ayBqtXCVAtdny">
+              <option name="activationTimestamp" value="1763188631701" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="0" y="48" width="3440" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1762937394849" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/pp/core">
+          <value>
+            <RecentProjectMetaInfo frameTitle="core [~/pp/core] – /home/vahidtwo/pp/core/src/Apps/Telegram_Admin/Telegram_Admin.ts" projectWorkspaceId="32jI74dupxMIyuWM8UwU9sQY7rV">
+              <option name="activationTimestamp" value="1763793533004" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="0" y="48" width="3440" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1763711751957" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/gooyal_accounts">
+          <value>
+            <RecentProjectMetaInfo frameTitle="gooyal_accounts [~/p/gooyal_accounts]" projectWorkspaceId="2kKK5vQopaRg1RaGpqv5jlowqfR">
+              <option name="activationTimestamp" value="1763821088172" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="0" y="48" width="3440" height="1392" extendedState="7" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1763821051199" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/keycloak-sms-authenticator">
+          <value>
+            <RecentProjectMetaInfo frameTitle="keycloak-sms-authenticator [~/p/keycloak-sms-authenticator] – /home/vahidtwo/p/keycloak-sms-authenticator/Dockerfile" projectWorkspaceId="333PjHmKhihWQvCQL8ZZQEFcfOL">
+              <option name="activationTimestamp" value="1763903761879" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.27397.106" />
+              <option name="buildTimestamp" value="1761213660000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="0" y="48" width="1920" height="1048" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1763889775168" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/escrow-django">
+          <value>
+            <RecentProjectMetaInfo frameTitle="escrow-django [~/p/escrow-django] – /home/vahidtwo/p/escrow-django/.github/copilot-instructions.md" projectWorkspaceId="30rZo36hHN7cd96OqDVRga37Pku">
+              <option name="activationTimestamp" value="1764586390025" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.28238.29" />
+              <option name="buildTimestamp" value="1764252300000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="198" y="1597" width="3440" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1764586376328" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/harmony">
+          <value>
+            <RecentProjectMetaInfo frameTitle="harmony [~/p/harmony] – /home/vahidtwo/p/harmony/Dockerfile" projectWorkspaceId="2ovAvMTXMKofxvmJmMZ1qvaBHX2">
+              <option name="activationTimestamp" value="1765012157365" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.28238.29" />
+              <option name="buildTimestamp" value="1764252300000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="0" y="48" width="3440" height="1392" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1764587730912" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/swap">
+          <value>
+            <RecentProjectMetaInfo frameTitle="swap [~/p/swap] – /home/vahidtwo/p/swap/swap/settings/ldap.py" projectWorkspaceId="30oS7VXtI7ZKxiEDTxLe1SOUTZJ">
+              <option name="activationTimestamp" value="1764689297963" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.28238.29" />
+              <option name="buildTimestamp" value="1764252300000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="-878" y="226" width="6164" height="1857" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1764681265396" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/light-edit">
+          <value>
+            <RecentProjectMetaInfo hidden="true">
+              <option name="activationTimestamp" value="1765290505524" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/p/qpay-backend">
+          <value>
+            <RecentProjectMetaInfo frameTitle="qpay-backend [~/p/qpay-backend] – /home/vahidtwo/p/qpay-backend/apps/transactions/utils/packet.py" projectWorkspaceId="31Oxb3V0vVGYdbghPVYdxLP2Ph1">
+              <option name="activationTimestamp" value="1765290555568" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.26199.168" />
+              <option name="buildTimestamp" value="1758212940000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="0" y="32" width="1920" height="1048" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1765290540968" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/pp/dotfiles_v2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dotfiles_v2 [~/pp/dotfiles_v2] – /home/vahidtwo/pp/dotfiles_v2/roles/dotfiles/tasks/terminal/qol.yml" projectWorkspaceId="2yBbgz4sIqQZQ8GbIHrXIGFbEpB">
+              <option name="activationTimestamp" value="1765693677485" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.26199.168" />
+              <option name="buildTimestamp" value="1758212940000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="0" y="32" width="1920" height="1048" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1765290574288" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/pp/dotfiles_v3">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="36pBYJR0uuGgfZnYxXd5km54eCL">
+              <option name="activationTimestamp" value="1765693678520" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-252.28238.29" />
+              <option name="buildTimestamp" value="1764252300000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1765693678993" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/pp/dotfiles_v3" />
+    <option name="lastProjectLocation" value="$USER_HOME$/pp" />
+  </component>
+</application>

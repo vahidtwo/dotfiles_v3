@@ -1,0 +1,10 @@
+appindicatorsupport@rgcjonas.gmail.com
+PersianCalendar@oxygenws.com
+network-stats@gnome.noroadsleft.xyz
+clipboard-indicator@tudmotu.com
+dash-to-panel@jderose9.github.com
+auto-move-windows@gnome-shell-extensions.gcampax.github.com
+status-icons@gnome-shell-extensions.gcampax.github.com
+system-monitor@gnome-shell-extensions.gcampax.github.com
+user-theme@gnome-shell-extensions.gcampax.github.com
+dash-to-dock@micxgx.gmail.com

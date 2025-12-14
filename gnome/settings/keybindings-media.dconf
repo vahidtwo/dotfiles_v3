@@ -1,0 +1,15 @@
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+next=['<Control>End']
+play=['<Control>Page_Down']
+previous=['<Control>Home']
+
+[custom-keybindings/custom0]
+binding='<Super>e'
+command='nautilus /home/vahidtwo'
+name='s'
+
+[custom-keybindings/custom1]
+binding='F12'
+command='guake --toggle'
+name='guake'

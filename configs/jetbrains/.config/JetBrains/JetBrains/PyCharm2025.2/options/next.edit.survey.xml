@@ -1,0 +1,13 @@
+<application>
+  <component name="NextEditFeedbackSurveyState">
+    <option name="notificationShown" value="true" />
+    <option name="sessionsSeen" value="32" />
+    <option name="isNotificationShown" value="true" />
+    <option name="sessionsAccepted" value="18" />
+    <option name="sessionsExplicitlyRejected" value="3" />
+    <option name="completionsAccepted" value="19" />
+    <languageToUsages>
+      <entry language="Python" number="32" />
+    </languageToUsages>
+  </component>
+</application>

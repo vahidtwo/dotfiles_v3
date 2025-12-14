@@ -1,0 +1,56 @@
+<scheme name="_@user_Dark" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2023-10-09T15:02:56</property>
+    <property name="ide">Python</property>
+    <property name="ideVersion">2023.2.2.0.0</property>
+    <property name="modified">2024-04-03T13:19:17</property>
+    <property name="originalScheme">Dark</property>
+    <property name="partialSave">true</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="17" />
+  <option name="EDITOR_FONT_NAME" value="Hack" />
+  <colors>
+    <option name="FILESTATUS_ADDED" value="8F9D6A" />
+    <option name="FILESTATUS_COPIED" value="8F9D6A" />
+    <option name="FILESTATUS_DELETED" value="A7A7A7" />
+    <option name="FILESTATUS_HIJACKED" value="47BC9B" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="AB7967" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="F77669" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="F77669" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="F77669" />
+    <option name="FILESTATUS_MERGED" value="9B859D" />
+    <option name="FILESTATUS_MODIFIED" value="F9EE98" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="F9EE98" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="F9EE98" />
+    <option name="FILESTATUS_OBSOLETE" value="A7A7A7" />
+    <option name="FILESTATUS_RENAMED" value="3A8484" />
+    <option name="FILESTATUS_SUPPRESSED" value="5F5A60" />
+    <option name="FILESTATUS_SWITCHED" value="9B859D" />
+    <option name="FILESTATUS_UNKNOWN" value="F77669" />
+    <option name="FILESTATUS_addedOutside" value="47BC9B" />
+    <option name="FILESTATUS_changelistConflict" value="F77669" />
+    <option name="FILESTATUS_modifiedOutside" value="9B859D" />
+  </colors>
+  <attributes>
+    <option name="HTML_CODE">
+      <value />
+    </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

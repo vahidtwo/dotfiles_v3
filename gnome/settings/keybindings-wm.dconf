@@ -1,0 +1,7 @@
+[/]
+maximize=['<Super>Up']
+move-to-workspace-left=['<Control><Super>Left']
+move-to-workspace-right=['<Control><Super>Right']
+switch-windows=@as []
+switch-windows-backward=@as []
+unmaximize=['<Super>Down', '<Alt>F5']

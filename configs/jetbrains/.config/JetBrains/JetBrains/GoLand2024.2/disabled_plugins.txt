@@ -1,0 +1,1 @@
+lermitage.intellij.extra.icons

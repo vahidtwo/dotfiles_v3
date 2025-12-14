@@ -1,0 +1,52 @@
+<application>
+  <component name="github-copilot">
+    <option name="signinNotificationShown" value="true" />
+    <languageAllowList>
+      <map>
+        <entry key="*" value="true" />
+        <entry key="AZURE" value="false" />
+        <entry key="AiIgnore" value="false" />
+        <entry key="BigQuery" value="false" />
+        <entry key="CassandraQL" value="false" />
+        <entry key="Chameleon" value="false" />
+        <entry key="ChatInput" value="false" />
+        <entry key="ClickHouse" value="false" />
+        <entry key="Cockroach" value="false" />
+        <entry key="CommandLine" value="false" />
+        <entry key="CouchbaseQuery" value="false" />
+        <entry key="Cython" value="false" />
+        <entry key="DB2" value="false" />
+        <entry key="DB2_IS" value="false" />
+        <entry key="DB2_ZOS" value="false" />
+        <entry key="Derby" value="false" />
+        <entry key="Dockerfile" value="false" />
+        <entry key="EditorConfig" value="false" />
+        <entry key="Exasol" value="false" />
+        <entry key="GenericSQL" value="false" />
+        <entry key="GitExclude" value="false" />
+        <entry key="GitIgnore" value="false" />
+        <entry key="Greenplum" value="false" />
+        <entry key="H2" value="false" />
+        <entry key="HSQLDB" value="false" />
+        <entry key="HTML" value="false" />
+        <entry key="HgIgnore" value="false" />
+        <entry key="HiveQL" value="false" />
+        <entry key="HtmlCompatible" value="false" />
+        <entry key="IgnoreLang" value="false" />
+        <entry key="Ini" value="false" />
+        <entry key="JQL" value="false" />
+        <entry key="MongoJS" value="false" />
+        <entry key="NetSuite" value="false" />
+        <entry key="Oracle" value="false" />
+        <entry key="OracleSqlPlus" value="false" />
+        <entry key="Redshift" value="false" />
+        <entry key="SparkSQL" value="false" />
+        <entry key="TSQL" value="false" />
+        <entry key="XHTML" value="false" />
+        <entry key="XML" value="false" />
+      </map>
+    </languageAllowList>
+    <option name="showIdeCompletions" value="true" />
+    <option name="chatNaturalLanguage" value="English" />
+  </component>
+</application>

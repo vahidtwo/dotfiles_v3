@@ -1,0 +1,269 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    checksum/config: 59cfe7f79ba9749acdf2c8151e957b9335f78b9ddd49d10a5bc48bfdf72972e2
+    checksum/secret: c4d6f4668f929f719634fe0095907a8df0debf33eadb4261e6474aa433f1daa7
+    cni.projectcalico.org/containerID: 9f05d8efae14ff359c2ec7081d636d97150f8868bb80c2dacc6624ba82926738
+    cni.projectcalico.org/podIP: 10.233.76.241/32
+    cni.projectcalico.org/podIPs: 10.233.76.241/32
+    prometheus.io/port: "9419"
+    prometheus.io/scrape: "true"
+  creationTimestamp: "2025-01-18T12:48:12Z"
+  generateName: rabbitmq-harmony-
+  labels:
+    app.kubernetes.io/instance: rabbitmq-harmony
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: rabbitmq
+    app.kubernetes.io/version: 3.12.12
+    controller-revision-hash: rabbitmq-harmony-57db7cd56f
+    helm.sh/chart: rabbitmq-12.6.2
+    statefulset.kubernetes.io/pod-name: rabbitmq-harmony-0
+  name: rabbitmq-harmony-0
+  namespace: toman-harmony
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: StatefulSet
+    name: rabbitmq-harmony
+    uid: 428dad9f-44bc-49ec-96a1-11cdbafc4cbe
+  resourceVersion: "256622532"
+  uid: f72f6be4-f2e0-420e-8168-f8056f6f2c98
+spec:
+  affinity:
+    podAntiAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - podAffinityTerm:
+          labelSelector:
+            matchLabels:
+              app.kubernetes.io/instance: rabbitmq-harmony
+              app.kubernetes.io/name: rabbitmq
+          topologyKey: kubernetes.io/hostname
+        weight: 1
+  containers:
+  - env:
+    - name: BITNAMI_DEBUG
+      value: "false"
+    - name: MY_POD_IP
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: status.podIP
+    - name: MY_POD_NAME
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: metadata.name
+    - name: MY_POD_NAMESPACE
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: metadata.namespace
+    - name: RABBITMQ_FORCE_BOOT
+      value: "no"
+    - name: RABBITMQ_NODE_NAME
+      value: rabbit@$(MY_POD_NAME).rabbitmq-harmony-headless.$(MY_POD_NAMESPACE).svc.cluster.local
+    - name: RABBITMQ_MNESIA_DIR
+      value: /bitnami/rabbitmq/mnesia/$(RABBITMQ_NODE_NAME)
+    - name: RABBITMQ_LDAP_ENABLE
+      value: "no"
+    - name: RABBITMQ_LOGS
+      value: '-'
+    - name: RABBITMQ_ULIMIT_NOFILES
+    - name: RABBITMQ_USE_LONGNAME
+      value: "true"
+    - name: RABBITMQ_ERL_COOKIE
+      valueFrom:
+        secretKeyRef:
+          key: rabbitmq-erlang-cookie
+          name: rabbitmq-harmony
+    - name: RABBITMQ_LOAD_DEFINITIONS
+      value: "yes"
+    - name: RABBITMQ_DEFINITIONS_FILE
+      value: /app/load_definition.json
+    - name: RABBITMQ_SECURE_PASSWORD
+      value: "yes"
+    - name: RABBITMQ_USERNAME
+      value: user
+    - name: RABBITMQ_PASSWORD
+      valueFrom:
+        secretKeyRef:
+          key: rabbitmq-password
+          name: rabbitmq-harmony
+    - name: RABBITMQ_PLUGINS
+      value: rabbitmq_management, rabbitmq_peer_discovery_k8s, rabbitmq_auth_backend_ldap,
+        rabbitmq_prometheus
+    image: registry-0.qcluster.org/bitnami/rabbitmq:3.12.12-debian-11-r0
+    imagePullPolicy: IfNotPresent
+    lifecycle:
+      preStop:
+        exec:
+          command:
+          - /bin/bash
+          - -ec
+          - |
+            if [[ -f /opt/bitnami/scripts/rabbitmq/nodeshutdown.sh ]]; then
+                /opt/bitnami/scripts/rabbitmq/nodeshutdown.sh -t "120" -d "false"
+            else
+                rabbitmqctl stop_app
+            fi
+    livenessProbe:
+      exec:
+        command:
+        - sh
+        - -ec
+        - rabbitmq-diagnostics -q ping
+      failureThreshold: 6
+      initialDelaySeconds: 120
+      periodSeconds: 30
+      successThreshold: 1
+      timeoutSeconds: 20
+    name: rabbitmq
+    ports:
+    - containerPort: 5672
+      name: amqp
+      protocol: TCP
+    - containerPort: 25672
+      name: dist
+      protocol: TCP
+    - containerPort: 15672
+      name: stats
+      protocol: TCP
+    - containerPort: 4369
+      name: epmd
+      protocol: TCP
+    - containerPort: 9419
+      name: metrics
+      protocol: TCP
+    readinessProbe:
+      exec:
+        command:
+        - sh
+        - -ec
+        - rabbitmq-diagnostics -q check_running && rabbitmq-diagnostics -q check_local_alarms
+      failureThreshold: 3
+      initialDelaySeconds: 10
+      periodSeconds: 30
+      successThreshold: 1
+      timeoutSeconds: 20
+    resources:
+      limits:
+        cpu: "2"
+        memory: 512Mi
+      requests:
+        cpu: 100m
+        memory: 256Mi
+    securityContext:
+      allowPrivilegeEscalation: false
+      capabilities:
+        drop:
+        - ALL
+      runAsNonRoot: true
+      runAsUser: 1001
+      seccompProfile:
+        type: RuntimeDefault
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /bitnami/rabbitmq/conf
+      name: configuration
+    - mountPath: /bitnami/rabbitmq/mnesia
+      name: data
+    - mountPath: /app
+      name: load-definition-volume
+      readOnly: true
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-5m7zn
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  hostname: rabbitmq-harmony-0
+  nodeName: stage-worker-03
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext:
+    fsGroup: 1001
+  serviceAccount: rabbitmq-harmony
+  serviceAccountName: rabbitmq-harmony
+  subdomain: rabbitmq-harmony-headless
+  terminationGracePeriodSeconds: 120
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: configuration
+    projected:
+      defaultMode: 420
+      sources:
+      - secret:
+          name: rabbitmq-harmony-config
+  - name: load-definition-volume
+    secret:
+      defaultMode: 420
+      secretName: rabbitmq-harmony-load-definition
+  - emptyDir: {}
+    name: data
+  - name: kube-api-access-5m7zn
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2025-01-18T12:48:12Z"
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2025-01-18T12:48:44Z"
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2025-01-18T12:48:44Z"
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2025-01-18T12:48:12Z"
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://7c4cb3854f8be39187c218971f9dfd64ce2532dca10b908556ff6bb22a61c0cb
+    image: registry-0.qcluster.org/bitnami/rabbitmq:3.12.12-debian-11-r0
+    imageID: registry-0.qcluster.org/bitnami/rabbitmq@sha256:8763eb690d5ae2b53769e5113c242b02496ca51aff4c8342d21f1cd819e8cc54
+    lastState: {}
+    name: rabbitmq
+    ready: true
+    restartCount: 0
+    started: true
+    state:
+      running:
+        startedAt: "2025-01-18T12:48:13Z"
+  hostIP: 172.28.1.112
+  phase: Running
+  podIP: 10.233.76.241
+  podIPs:
+  - ip: 10.233.76.241
+  qosClass: Burstable
+  startTime: "2025-01-18T12:48:12Z"

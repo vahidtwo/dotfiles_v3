@@ -1,0 +1,8 @@
+<application>
+  <component name="CommonFeedbackSurveyService"><![CDATA[{
+  "feedbackSurveyToNumberNotificationShows": {
+    "external_software_accessibility_survey": 2,
+    "data_grip_ux_survey_config_may_2025": 2
+  }
+}]]></component>
+</application>

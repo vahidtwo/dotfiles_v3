@@ -1,0 +1,21 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ProjectView">
+        <navigator proportions="" version="1" />
+        <panes />
+      </component>
+      <component name="ProjectViewState">
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+        <option name="showMembers" value="true" />
+        <option name="showScratchesAndConsoles" value="false" />
+      </component>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;
+  }
+}</component>
+    </defaultProject>
+  </component>
+</application>

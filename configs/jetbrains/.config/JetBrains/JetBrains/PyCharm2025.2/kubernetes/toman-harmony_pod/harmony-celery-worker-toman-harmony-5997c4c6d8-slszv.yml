@@ -1,0 +1,137 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    cni.projectcalico.org/containerID: e1e945b663f7217264b4fd26afdd1af17addda2f0434e8f56432fd787f6a086e
+    cni.projectcalico.org/podIP: 10.233.121.227/32
+    cni.projectcalico.org/podIPs: 10.233.121.227/32
+    kubectl.kubernetes.io/restartedAt: "2025-02-23T20:24:33+03:30"
+  creationTimestamp: "2025-02-24T14:58:57Z"
+  generateName: harmony-celery-worker-toman-harmony-5997c4c6d8-
+  labels:
+    app.kubernetes.io/instance: harmony-celery-worker
+    app.kubernetes.io/name: toman-harmony
+    pod-template-hash: 5997c4c6d8
+  name: harmony-celery-worker-toman-harmony-5997c4c6d8-slszv
+  namespace: toman-harmony
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: harmony-celery-worker-toman-harmony-5997c4c6d8
+    uid: 8bfce917-8438-4156-96c1-d4091a694182
+  resourceVersion: "192270967"
+  uid: 30300986-37d0-4be7-ae4d-a4965e3e5ee3
+spec:
+  containers:
+  - env:
+    - name: ENTRYPOINT
+      value: celery_worker
+    - name: POD_NAME
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: metadata.name
+    envFrom:
+    - configMapRef:
+        name: harmony
+    image: registry.qcluster.org/toman/microservices/harmony:48008
+    imagePullPolicy: Always
+    name: harmony
+    ports:
+    - containerPort: 8080
+      name: http
+      protocol: TCP
+    resources:
+      limits:
+        cpu: "1"
+        memory: 2Gi
+      requests:
+        cpu: 150m
+        memory: 512Mi
+    securityContext: {}
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-9fd6s
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  imagePullSecrets:
+  - name: gitlab-registry
+  nodeName: prod-worker-01-s
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: harmony-celery-worker-toman-harmony
+  serviceAccountName: harmony-celery-worker-toman-harmony
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: kube-api-access-9fd6s
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2025-02-24T14:58:57Z"
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2025-02-24T14:58:59Z"
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2025-02-24T14:58:59Z"
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2025-02-24T14:58:57Z"
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://c236b925e4c0ec557383923c883981b81d1eabe693cfcf88d721f0c5fa6ecc40
+    image: registry.qcluster.org/toman/microservices/harmony:48008
+    imageID: registry.qcluster.org/toman/microservices/harmony@sha256:629221dbcb584bed1bc5de5c30dc08cd8284a7ad64a1a613195369e5f476e4b6
+    lastState: {}
+    name: harmony
+    ready: true
+    restartCount: 0
+    started: true
+    state:
+      running:
+        startedAt: "2025-02-24T14:58:58Z"
+  hostIP: 172.29.1.110
+  phase: Running
+  podIP: 10.233.121.227
+  podIPs:
+  - ip: 10.233.121.227
+  qosClass: Burstable
+  startTime: "2025-02-24T14:58:57Z"

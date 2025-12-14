@@ -1,0 +1,15 @@
+<application>
+  <component name="ProjectViewFileNesting">
+    <nesting-rules />
+  </component>
+  <component name="UISettings">
+    <option name="compactTreeIndents" value="true" />
+    <option name="FULL_PATHS_IN_TITLE_BAR" value="true" />
+    <option name="MAX_LOOKUP_WIDTH2" value="1105" />
+    <option name="SHOW_TOOL_WINDOW_NAMES" value="true" />
+    <option name="showTreeIndentGuides" value="true" />
+    <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
+    <option name="TOOL_WINDOW_LEFT_SIDE_CUSTOM_WIDTH" value="59" />
+    <option name="TOOL_WINDOW_RIGHT_SIDE_CUSTOM_WIDTH" value="59" />
+  </component>
+</application>

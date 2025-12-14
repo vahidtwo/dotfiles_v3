@@ -1,0 +1,84 @@
+<application>
+  <component name="CodiumSettings">
+    <option name="autoApprovedTools">
+      <map>
+        <entry key="Code Navigation">
+          <value>
+            <map>
+              <entry key="find_code_usages" value="true" />
+              <entry key="get_code_dependencies" value="true" />
+            </map>
+          </value>
+        </entry>
+        <entry key="Fetch URL">
+          <value>
+            <map>
+              <entry key="fetch_html" value="false" />
+              <entry key="fetch_json" value="false" />
+              <entry key="fetch_markdown" value="false" />
+              <entry key="fetch_txt" value="false" />
+            </map>
+          </value>
+        </entry>
+        <entry key="File System">
+          <value>
+            <map>
+              <entry key="directory_traversal" value="true" />
+              <entry key="get_file_info" value="true" />
+              <entry key="read_file" value="true" />
+              <entry key="replace_in_file" value="true" />
+              <entry key="search_files" value="true" />
+              <entry key="write_to_file" value="true" />
+            </map>
+          </value>
+        </entry>
+        <entry key="GIT">
+          <value>
+            <map>
+              <entry key="git_branches" value="true" />
+              <entry key="git_changes" value="true" />
+              <entry key="git_file_history" value="true" />
+              <entry key="git_remote_url" value="true" />
+            </map>
+          </value>
+        </entry>
+        <entry key="Terminal">
+          <value>
+            <map>
+              <entry key="terminal_execute_command" value="false" />
+            </map>
+          </value>
+        </entry>
+        <entry key="Web Search">
+          <value>
+            <map>
+              <entry key="web_search_tool" value="true" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="codeCompletionEnabled" value="true" />
+    <option name="distinctId" value="dc00463a-1381-4bbc-803e-91f3560df9d8" />
+    <option name="installationId" value="31f35eb8-3dd0-4223-b89c-daf507dd08a4" />
+    <option name="languageConfigurations">
+      <map>
+        <entry key="python">
+          <value>
+            <LocalConfiguration />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="prevPluginVersion" value="1.5.4" />
+    <option name="userId" value="dc00463a-1381-4bbc-803e-91f3560df9d8" />
+    <option name="valueMap">
+      <map>
+        <entry key="chatConversationMode" value="&quot;agent&quot;" />
+        <entry key="customModel" value="&quot;claude-4-sonnet&quot;" />
+        <entry key="isAgenticModeViewed" value="true" />
+        <entry key="wordWrapButtonEnabled" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

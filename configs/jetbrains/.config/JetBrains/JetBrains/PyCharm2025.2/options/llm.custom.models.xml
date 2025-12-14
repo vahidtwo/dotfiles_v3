@@ -1,0 +1,5 @@
+<application>
+  <component name="LlmCustomModelsSettings">
+    <option name="is_local_mode_enabled" value="true" />
+  </component>
+</application>

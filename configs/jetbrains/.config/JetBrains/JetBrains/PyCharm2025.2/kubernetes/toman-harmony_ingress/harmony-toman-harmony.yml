@@ -1,0 +1,36 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    field.cattle.io/publicEndpoints: '[{"addresses":["10.233.36.54"],"port":80,"protocol":"HTTP","serviceName":"toman-harmony:harmony-toman-harmony","ingressName":"toman-harmony:harmony-toman-harmony","hostname":"harmony.qcluster.org","path":"/","allNodes":false}]'
+    meta.helm.sh/release-name: harmony
+    meta.helm.sh/release-namespace: toman-harmony
+  creationTimestamp: "2025-01-20T15:22:19Z"
+  generation: 2
+  labels:
+    app.kubernetes.io/instance: harmony
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: toman-harmony
+    app.kubernetes.io/version: 1.16.0
+    helm.sh/chart: harmony-0.1.1
+  name: harmony-toman-harmony
+  namespace: toman-harmony
+  resourceVersion: "191500255"
+  uid: 9ce1d4e9-7d40-4f10-9632-91eae1f3cd91
+spec:
+  ingressClassName: kong
+  rules:
+  - host: harmony.qcluster.org
+    http:
+      paths:
+      - backend:
+          service:
+            name: harmony-toman-harmony
+            port:
+              number: 8080
+        path: /
+        pathType: ImplementationSpecific
+status:
+  loadBalancer:
+    ingress:
+    - ip: 10.233.36.54

@@ -1,0 +1,13 @@
+<application>
+  <component name="XDebuggerSettings">
+    <data-views />
+    <general />
+    <debuggers>
+      <debugger id="python">
+        <configuration>
+          <option name="simplifiedView" value="false" />
+        </configuration>
+      </debugger>
+    </debuggers>
+  </component>
+</application>

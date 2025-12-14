@@ -1,0 +1,32 @@
+[gtk4/settings/color-chooser]
+custom-colors=[(0.92549020051956177, 0.36862745881080627, 0.36862745881080627, 1.0), (0.96078431606292725, 0.49803921580314636, 0.56862747669219971, 1.0)]
+selected-color=(true, 0.60000002384185791, 0.75686275959014893, 0.94509804248809814, 1.0)
+
+[gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=140
+sort-column='modified'
+sort-directories-first=false
+sort-order='descending'
+type-format='category'
+view-type='list'
+window-size=(859, 374)
+
+[settings/file-chooser]
+clock-format='24h'
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=185
+sort-column='modified'
+sort-directories-first=false
+sort-order='descending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1203, 992)

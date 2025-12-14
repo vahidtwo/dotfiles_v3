@@ -1,0 +1,15 @@
+<application>
+  <component name="SystemPythonService">
+    <option name="userProvidedPythons">
+      <list>
+        <option value="$USER_HOME$/p/escrow-django/.venv/bin/python" />
+        <option value="$USER_HOME$/p/escrow-django/.venv/bin/python" />
+        <option value="$USER_HOME$/p/qpay-backend/.venv/bin/python" />
+        <option value="$USER_HOME$/PycharmProjects/DjangoProject/.venv/bin/python" />
+        <option value="$USER_HOME$/PycharmProjects/DjangoProject/.venv/bin/python" />
+        <option value="$USER_HOME$/PycharmProjects/DjangoProject/.venv/bin/python" />
+        <option value="/usr/bin/python3" />
+      </list>
+    </option>
+  </component>
+</application>

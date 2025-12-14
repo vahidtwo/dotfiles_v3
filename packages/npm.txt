@@ -1,0 +1,14 @@
+name
+dependencies
+jshint
+version
+overridden
+localtunnel
+version
+overridden
+neovim
+version
+overridden
+tree-sitter-cli
+version
+overridden

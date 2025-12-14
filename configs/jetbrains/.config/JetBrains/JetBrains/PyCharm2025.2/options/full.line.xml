@@ -1,0 +1,17 @@
+<application>
+  <component name="DownloadModelConsentState">
+    <option name="lastNotificationTimestamps">
+      <map>
+        <entry language="HTML" lastNotificationTimestamp="1757754974362" />
+      </map>
+    </option>
+  </component>
+  <component name="Full Line Inline Third Parties">
+    <thirdParties>
+      <entry id="com.codeium.intellij" is-enabled="false" />
+    </thirdParties>
+  </component>
+  <component name="InlineShortcutChoice">
+    <option name="choiceShownTimes" value="50" />
+  </component>
+</application>

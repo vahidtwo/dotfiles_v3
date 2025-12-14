@@ -1,0 +1,11 @@
+com.intellij.ideolog
+com.intellij.kubernetes
+com.intellij.ml.llm
+ChatGPT
+com.sourcegraph.jetbrains
+com.intellij.bigdatatools.binary.files
+name.kropp.intellij.makefile
+org.jetbrains.junie
+com.intellij.bigdatatools.metastore.core
+com.intellij.bigdatatools.core
+com.koxudaxi.ruff

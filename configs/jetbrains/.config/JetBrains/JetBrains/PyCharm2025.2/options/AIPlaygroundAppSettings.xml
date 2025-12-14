@@ -1,0 +1,7 @@
+<application>
+  <component name="com.intellij.aiplayground.settings.PlaygroundSettingsState">
+    <providers>
+      <provider id="dc4e05a5-bfcc-4c71-9a00-bc4d20711d87" providerId="aiassistant" displayName="AI Assistant" />
+    </providers>
+  </component>
+</application>

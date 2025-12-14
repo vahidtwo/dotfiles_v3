@@ -1,0 +1,23 @@
+<application>
+  <component name="GraziConfig">
+    <option name="enabledLanguages">
+      <set>
+        <option value="English (US)" />
+        <option value="Persian" />
+      </set>
+    </option>
+    <option name="suppressingContext">
+      <SuppressingContext>
+        <option name="suppressed">
+          <set>
+            <option value="Ha|Handles the case when changing the status of a payment is not allowed." />
+            <option value="Process the refund state machine and update the manage data status according to related state First, find related handler, Next, call find_next_status on that handler, If there is a next status, find the next task name and send the task on celery.|Process the refund state machine and update the manage data status according to related state First, find related handler, Next, call find_next_status on that handler, If there is a next status, find the next task name and send the task on celery." />
+            <option value="are|finotech use the other provider, this code meens the fintech providers are not available" />
+            <option value="fucking" />
+            <option value="process the refund state machine and update the manage data status according to related state first, find related handler, next, call find_next_status on that handler, if there is a next status, find the next task name and send the task on celery.|process the refund state machine and update the manage data status according to related state first, find related handler, next, call find_next_status on that handler, if there is a next status, find the next task name and send the task on celery." />
+          </set>
+        </option>
+      </SuppressingContext>
+    </option>
+  </component>
+</application>

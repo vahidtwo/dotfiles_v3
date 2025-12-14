@@ -1,0 +1,13 @@
+<application>
+  <component name="CIAidCacheService">
+    <option name="remoteIncludeIdentifierToLocalPath">
+      <map>
+        <entry key="/.gitlab-ci/build.yml" value="$USER_HOME$/p/escrow-django/.gitlab-ci/build.yml" />
+        <entry key="/.gitlab-ci/deploy-prod.yml" value="$USER_HOME$/p/escrow-django/.gitlab-ci/deploy-prod.yml" />
+        <entry key="/.gitlab-ci/deploy-staging.yml" value="$USER_HOME$/p/escrow-django/.gitlab-ci/deploy-staging.yml" />
+        <entry key="/.gitlab-ci/deploy.yml" value="$USER_HOME$/p/escrow-agw-conf/.gitlab-ci/deploy.yml" />
+        <entry key="/.gitlab-ci/test.yml" value="$USER_HOME$/p/escrow-django/.gitlab-ci/test.yml" />
+      </map>
+    </option>
+  </component>
+</application>

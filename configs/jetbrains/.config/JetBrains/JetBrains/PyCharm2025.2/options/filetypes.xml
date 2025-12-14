@@ -1,0 +1,22 @@
+<application>
+  <component name="FileTypeManager" version="19">
+    <ignoreFiles list="*$py.class;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.mypy_cache;.pytest_cache;.ruff_cache;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc" />
+    <extensionMap>
+      <mapping pattern="ss" type="AUTO_DETECTED" />
+      <mapping ext="tmpl" type="JSON" />
+      <mapping pattern="mcp.json" type="JSON5" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="suo" type="PLAIN_TEXT" />
+      <mapping ext="so" type="PLAIN_TEXT" />
+      <mapping ext="whl" type="PLAIN_TEXT" />
+      <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="*.py.lock" approved="true" type="TOML" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping pattern="uv.lock" approved="true" type="TOML" />
+    </extensionMap>
+  </component>
+</application>

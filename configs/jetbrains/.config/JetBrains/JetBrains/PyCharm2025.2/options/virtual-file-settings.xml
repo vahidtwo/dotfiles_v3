@@ -1,0 +1,46 @@
+<application>
+  <component name="VirtualFileConfigStorage">
+    <option name="fileTimestamp">
+      <map>
+        <entry key="163236" value="1746694631444" />
+        <entry key="246535" value="1749058229291" />
+        <entry key="246546" value="1749058229615" />
+        <entry key="246559" value="1749058230463" />
+        <entry key="246562" value="1749058230488" />
+        <entry key="246565" value="1749058230500" />
+        <entry key="246575" value="1749058230548" />
+        <entry key="246578" value="1749058230560" />
+        <entry key="246579" value="1749058230563" />
+        <entry key="348083" value="1758362313262" />
+        <entry key="348094" value="1758362313739" />
+        <entry key="348109" value="1758362314729" />
+        <entry key="348113" value="1758362314776" />
+        <entry key="348116" value="1758362314810" />
+        <entry key="348127" value="1758362314908" />
+        <entry key="348132" value="1758362314929" />
+        <entry key="348135" value="1758362314942" />
+      </map>
+    </option>
+    <option name="fileToConfig">
+      <map>
+        <entry key="163236" value="managed" />
+        <entry key="246535" value="managed" />
+        <entry key="246546" value="managed" />
+        <entry key="246559" value="managed" />
+        <entry key="246562" value="managed" />
+        <entry key="246565" value="managed" />
+        <entry key="246575" value="managed" />
+        <entry key="246578" value="managed" />
+        <entry key="246579" value="managed" />
+        <entry key="348083" value="managed" />
+        <entry key="348094" value="managed" />
+        <entry key="348109" value="managed" />
+        <entry key="348113" value="managed" />
+        <entry key="348116" value="managed" />
+        <entry key="348127" value="managed" />
+        <entry key="348132" value="managed" />
+        <entry key="348135" value="managed" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,23 @@
+<profile version="1.0">
+  <option name="myName" value="Default" />
+  <inspection_tool class="ConstanceSettingUsageInspection" enabled="false" level="INFORMATION" enabled_by_default="false" editorAttributes="INFORMATION_ATTRIBUTES" />
+  <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <Languages>
+      <language minSize="298" name="Python" />
+    </Languages>
+  </inspection_tool>
+  <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredPackages">
+      <list>
+        <option value="psycopg2" />
+      </list>
+    </option>
+  </inspection_tool>
+  <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredIdentifiers">
+      <list>
+        <option value="toman_services.intersection.global_constance.ServicesName.choices" />
+      </list>
+    </option>
+  </inspection_tool>
+</profile>

@@ -1,0 +1,9 @@
+<application>
+  <component name="com.obiscr.chatgpt.settings.OpenAISettingsState">
+    <option name="easyCodeAccessToken" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ4NTk0Mzg5LCJpYXQiOjE3NDg1OTM0ODcsImp0aSI6IjU2ODg0NmIxNzFkNTQwZDY5YzIzNWY4OWIyZDU5Y2Q2IiwidXNlcl9pZCI6NzkwNDE5fQ.Ril2bLPw-_XosEWsmlKbbp2R5QHBw4cDHFKaAEonDrQ" />
+    <option name="easyCodeRefreshToken" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0OTgwMzA4OSwiaWF0IjoxNzQ4NTkzNDg5LCJqdGkiOiJhNGViZDZmMWRlYWM0ZjBjOGU3ODA4Y2IzMDhhOTkyZSIsInVzZXJfaWQiOjc5MDQxOX0.vog-Gaws2zmsoW3_4XawhgHxHTnLkQeY9aqBRAiSkag" />
+    <option name="easyCodeUserEmail" value="vahidtwo@gmail.com" />
+    <option name="easyCodeHistoryConversationModel" />
+    <option name="showEasyCodeConversationList" value="false" />
+  </component>
+</application>

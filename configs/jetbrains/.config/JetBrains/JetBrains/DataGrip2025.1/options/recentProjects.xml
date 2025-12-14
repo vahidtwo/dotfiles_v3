@@ -1,0 +1,41 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/DataGripProjects/toman">
+          <value>
+            <RecentProjectMetaInfo frameTitle="toman – index.sql" opened="true" projectWorkspaceId="2qvzOkUrFbcEbNv1ZKOOf6BObkq">
+              <option name="activationTimestamp" value="1756452911747" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="DB-243.23654.19" />
+              <option name="buildTimestamp" value="1734468960000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="0" y="0" width="3440" height="1440" extendedState="6" />
+              <option name="productionCode" value="DB" />
+              <option name="projectOpenTimestamp" value="1735557807285" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/DataGripProjects/cv">
+          <value>
+            <RecentProjectMetaInfo frameTitle="cv" projectWorkspaceId="2u4UNpTA1TXReXL2IJaFYh3VZli">
+              <option name="activationTimestamp" value="1746466793269" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="DB-251.25410.75" />
+              <option name="buildTimestamp" value="1746035100000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="1020" y="244" width="1400" height="1000" />
+              <option name="productionCode" value="DB" />
+              <option name="projectOpenTimestamp" value="1746466793527" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/DataGripProjects/toman" />
+  </component>
+</application>

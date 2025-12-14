@@ -1,0 +1,375 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="Console.Transaction" />
+    </ids>
+  </component>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>Django</id>
+          </State>
+          <State>
+            <id>Docker-compose</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript and TypeScript</id>
+          </State>
+          <State>
+            <id>Internationalization</id>
+          </State>
+          <State>
+            <id>JSON and JSON5</id>
+          </State>
+          <State>
+            <id>JavaScript and TypeScript</id>
+          </State>
+          <State>
+            <id>Proofreading</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ConstanceSettingUsageInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="FileEditorProviderManager">{
+  &quot;selectedProviders&quot;: {
+    &quot;diagrams.net JCEF editor,images&quot;: &quot;diagrams.net JCEF editor&quot;,
+    &quot;diagrams.net JCEF editor,text-editor&quot;: &quot;diagrams.net JCEF editor&quot;,
+    &quot;hdfs-parquet-editor-provider,scripted-data-editor&quot;: &quot;scripted-data-editor&quot;,
+    &quot;text-editor,diagrams.net JCEF editor&quot;: &quot;diagrams.net JCEF editor&quot;,
+    &quot;bde-ide-default-editor,LargeLogFileEditorProvider&quot;: &quot;bde-ide-default-editor&quot;,
+    &quot;com.intellij.database.editor.DatabaseTableFileEditorProvider,scripted-data-editor&quot;: &quot;com.intellij.database.editor.DatabaseTableFileEditorProvider&quot;
+  }
+}</component>
+  <component name="LangManager">
+    <option name="languageName" value="Python" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Vazir" />
+    <option name="fontSize" value="14.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "AIHubNotificationManager.lastUsedLicenseType": "PRO",
+    "AIPLUGIN_VERSION": "1.8.0-243",
+    "BLOCK_TERMINAL_LAST_USED_DATE": "1744628778",
+    "BLOCK_TERMINAL_LAST_USED_VERSION": "243.26053.29",
+    "ColorChooser.RecentColors": "0-0-0-13,,,179-229-252-245,,,44-122-123-245,,,255-236-0-145,,,235-235-235-204,,,255-255-255-50",
+    "CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2": "0.53825504",
+    "CommitToolWindow.COMMIT_SPLITTER_PROPORTION": "0.6179641",
+    "DBE.Default.Dialect": "MySQL",
+    "DbRenameDialog.previewExpanded": "true",
+    "DbStructureEditor.dblClickEditing": "true",
+    "FileChooser.ShowPath": "true",
+    "FileTemplates.CurrentTab": "Code",
+    "FileTemplates.SelectedTemplate": "JavaScript Implemented Method Body",
+    "FindSplitterProportion": "0.2737962",
+    "GEMINI_INTELLIJ_INSTALLATION_ID": "97da2988-a7bf-4097-8ea9-dbee83739936",
+    "Grazie.Professional.Advertisement.Invoked": "3",
+    "Grazie.Professional.Advertisement.Shown": "1746565650018",
+    "IdeErrorsDialog.LAST_OK_ACTION": "REPORT_AND_CLEAR_ALL",
+    "InstalledPluginsSearchHistory": "AI\nA\ngitlab\ngitla\ngitl",
+    "KEYMAP": "UNDO\nselect\ncody\nback\ninline",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "4",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "PY-252.28238.29",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/extractors": "PY-252.28238.29",
+    "LAST_INJECTED_LANGUAGE": "MySQL",
+    "LayoutCode.optimizeImports": "true",
+    "LayoutCode.processChangedText": "false",
+    "MYSQL_DUMP_CLI_PACK_LAST_USED_CONFIGURATION": "MYSQL_PROPERTIES",
+    "MYSQL_PROPERTIES_9580a7c3-64ec-41d4-a5cd-c1cfa7e29101_COMMAND": "gooyal --result-file=\"/home/vahidtwo/{data_source}-{timestamp}-dump.sql\"",
+    "MYSQL_PROPERTIES_9580a7c3-64ec-41d4-a5cd-c1cfa7e29101_PATH": "/usr/bin/mysqldump",
+    "MYSQL_PROPERTIES_COMMAND": " checkout \"checkouts_checkout\" --result-file=\"/home/vahidtwo/{data_source}-{timestamp}-dump.sql\"",
+    "MYSQL_PROPERTIES_EXPANDED": "true",
+    "MYSQL_PROPERTIES_PATH": "/usr/bin/mysqldump",
+    "MYSQL_PROPERTIES_VARIANTS_-753420028": "--databases --all-databases -A -Y --all-tablespaces -y --no-tablespaces --add-drop-database --add-drop-table --skip-add-drop-table --add-drop-trigger --add-locks --skip-add-locks --allow-keywords --apply-replica-statements --apply-slave-statements --bind-address= --character-sets-dir= --column-statistics --skip-column-statistics -i --comments --skip-comments --compatible= --compact --skip-disable-keys --skip-set-charset -c --complete-insert -C --compress -a --create-options --skip-create-options -B -# --debug --debug-check --debug-info --default-character-set= --delete-source-logs --source-data --delete-master-logs -K --disable-keys --dump-replica --lock-all-tables --single-transaction --lock-tables --dump-slave -E --events -e --extended-insert --skip-extended-insert --fields-terminated-by= --fields-enclosed-by= --fields-optionally-enclosed-by= --fields-escaped-by= -F --flush-logs --databases= --flush-privileges -f --force --help --hex-blob -h --host= --ignore-error= --ignore-table= --include-source-host-port --include-master-host-port --insert-ignore --lines-terminated-by= -x -l --skip-lock-tables --log-error= --mysqld-long-query-time= --master-data --max-allowed-packet= --net-buffer-length= --no-autocommit -n --no-create-db -t --no-create-info -d --no-data -N --no-set-names --opt --quick --set-charset --skip-opt --order-by-primary -p --password --password1 --password2 --password3 -P --port= --protocol= -q --skip-quick -Q --quote-names --skip-quote-names --replace -r --result-file= -R --routines --set-gtid-purged --dump-date --skip-dump-date -S --socket= --server-public-key-path= --get-server-public-key --ssl-mode= --ssl-ca= --ssl-capath= --ssl-cert= --ssl-cipher= --ssl-key= --ssl-crl= --ssl-crlpath= --tls-version= --ssl-fips-mode= --tls-ciphersuites= --ssl-session-data= --ssl-session-data-continue-on-failed-reuse -T --tab= --tables --triggers --skip-triggers --tz-utc --skip-tz-utc -u --user= -v --verbose -V --version -w --where= -X --xml --plugin-dir= --default-auth= --enable-cleartext-plugin -M --network-timeout --skip-network-timeout --show-create-table-skip-secondary-engine --compression-algorithms= --zstd-compression-level= --skip-generated-invisible-primary-key",
+    "MYSQL_PROPERTIES_VARIANTS_v2-753420028": "--databases --all-databasesOR --system= -A --all-databases -Y --all-tablespaces -y --no-tablespaces --add-drop-database --add-drop-table --skip-add-drop-table --add-drop-trigger --add-locks --skip-add-locks --allow-keywords --apply-slave-statements --as-of= --tz-utc --character-sets-dir= -i --comments --skip-comments --compatible= --compact --skip-disable-keys --skip-set-charset -c --complete-insert -C --compress --copy-s3-tables -a --create-options --skip-create-options -B -# --debug --debug-check --debug-info --default-character-set= --delayed-insert --delete-master-logs --master-data -D --dir= --tab -K --disable-keys --dump-date --skip-dump-date -H --dump-history --update-history --dump-slave --lock-all-tables --single-transaction --lock-tables -E --events -e --extended-insert --skip-extended-insert --fields-terminated-by= --fields-enclosed-by= --fields-optionally-enclosed-by= --fields-escaped-by= -F --flush-logs --databases= --flush-privileges -f --force --gtid --master-data= --dump-slave= --header --help --hex-blob -h --host= --ignore-database= --ignore-table-data= --ignore-table= --include-master-host-port --insert-ignore --lines-terminated-by= -x -l --skip-lock-tables --log-error= --log-queries --skip-log-queries --max-allowed-packet= --max-statement-time= --net-buffer-length= --no-autocommit --skip-no-autocommit -n --no-create-db -t --no-create-info -d --no-data --no-data-med --skip-no-data-med -N --no-set-names --opt --quick --set-charset --skip-opt --order-by-primary --order-by-size -p --password -j --parallel= -P --port= --protocol= -q --skip-quick -Q --quote-names --skip-quote-names --replace -r --result-file= -R --routines -S --socket= --ssl --skip-ssl --ssl-ca= --ssl-capath= --ssl-cert= --ssl-cipher= --ssl-key= --ssl-crl= --ssl-crlpath= --tls-version= --ssl-fp= --ssl-fplist= --ssl-verify-server-cert --skip-ssl-verify-server-cert -T --tab= --tables --triggers --skip-triggers --skip-tz-utc -u --user= -v --verbose -V --version -w --where= -X --xml --plugin-dir= --default-auth=",
+    "MYSQL_PROPERTIES_a0354a1d-17d8-4de6-b240-a018dbfe97ef_COMMAND": "\"toman_swap\" --result-file=\"/home/vahidtwo/{data_source}-{timestamp}-dump.sql\"",
+    "MYSQL_PROPERTIES_a0354a1d-17d8-4de6-b240-a018dbfe97ef_PATH": "/usr/bin/mysqldump",
+    "MYSQL_PROPERTIES_ab398610-5311-4a52-9765-0865adff1ebc_COMMAND": "amad --result-file=\"/home/vahidtwo/{data_source}-{timestamp}-dump.sql\" --skip-lock-tables --complete-insert",
+    "MYSQL_PROPERTIES_ab398610-5311-4a52-9765-0865adff1ebc_DOCKER_CONTAINER_ID": "685672bc45783b396a65b176bebcef0006b964482e15fe22c7650c5edcb40c8a",
+    "MYSQL_PROPERTIES_ab398610-5311-4a52-9765-0865adff1ebc_DOCKER_SERVER_NAME": "Docker",
+    "MYSQL_PROPERTIES_ab398610-5311-4a52-9765-0865adff1ebc_PATH": "/usr/bin/mysqldump",
+    "MYSQL_PROPERTIES_ab398610-5311-4a52-9765-0865adff1ebc_RUN_TARGET_PROVIDER_ID": "cli.run.target.docker",
+    "MYSQL_RESTORE_CLI_PACK_LAST_USED_CONFIGURATION": "MYSQL_RESTORE_KEY",
+    "MYSQL_RESTORE_KEY_9580a7c3-64ec-41d4-a5cd-c1cfa7e29101_COMMAND": "--database=gooyal < \"/home/vahidtwo/TomanDatabaseBackup/toman_auth_staging.sql\"",
+    "MYSQL_RESTORE_KEY_9580a7c3-64ec-41d4-a5cd-c1cfa7e29101_PATH": "/usr/bin/mysql",
+    "MYSQL_RESTORE_KEY_EXPANDED": "true",
+    "MYSQL_RESTORE_KEY_VARIANTS_v2-2069723376": "--help -I --abort-source-on-error --auto-rehash --skip-auto-rehash -A --no-auto-rehash --auto-vertical-output -B --batch --silent --binary-as-hex --binary-mode --character-sets-dir= --column-names --skip-column-names -N --column-type-info -c --comments --skip-comments -C --compress --connect-expired-password --connect-timeout= -D --database= -# --debug --debug-check -T --debug-info --default-auth= --default-character-set= --delimiter= --enable-cleartext-plugin -e --execute= --force -f -h --host= -H --html -i --ignore-spaces --init-command= --line-numbers --skip-line-numbers -L --local-infile --max-allowed-packet= --max-join-size= --safe-updates -G --named-commands --disable-named-commands --net-buffer-length= -b --no-beep -o --one-database --pager --disable-pager -p --password --plugin-dir= -P --port= --print-query-on-error --skip-print-query-on-error --progress-reports --skip-progress-reports --prompt= --protocol= -q --quick --quick-max-column-width= -r --raw --reconnect --skip-reconnect -U --i-am-a-dummy --sandbox --secure-auth --select-limit= --server-arg= --show-query-costs --show-warnings --sigint-ignore -s -S --socket= --ssl --skip-ssl --ssl-ca= --ssl-capath= --ssl-cert= --ssl-cipher= --ssl-key= --ssl-crl= --ssl-crlpath= --tls-version= --ssl-fp= --ssl-fplist= --ssl-verify-server-cert --skip-ssl-verify-server-cert -t --table --tee= --disable-tee -n --unbuffered -u --user= -v --verbose -V --version -E --vertical -w --wait -X --xml",
+    "MYSQL_RESTORE_KEY_aab30c84-34e6-406a-8bf8-a0635e9c7446_COMMAND": "--database=swap < \"/run/media/vahidtwo/E829-F56A/toman_swap_master_prod_20241215_05.dmp\"",
+    "MYSQL_RESTORE_KEY_aab30c84-34e6-406a-8bf8-a0635e9c7446_PATH": "/usr/bin/mysql",
+    "MYSQL_RESTORE_KEY_c786b145-1cb9-4e27-86bf-4bff81f55289_COMMAND": "--database=gooyal < \"/home/vahidtwo/TomanDatabaseBackup/toman_auth_staging_2025_05_08.sql\"",
+    "MYSQL_RESTORE_KEY_c786b145-1cb9-4e27-86bf-4bff81f55289_PATH": "/usr/bin/mysql",
+    "Markdown Split EditorLayout": "Editor only",
+    "MarketplacePluginsSearchHistory": "/staffPicks\njun\nj\nتع\n/suggested",
+    "MemberChooser.copyJavadoc": "false",
+    "MemberChooser.showClasses": "true",
+    "NEXT_SURVEY_TIMESTAMP": "2025-02-03T07:36:19.083109595Z",
+    "NextRunPlatformUpdateBuild": "PY-253.28294.336",
+    "NextRunPlatformUpdateSelfBuild": "PY-252.28238.29",
+    "NextRunPlatformUpdateVersion": "2025.3",
+    "Notification.DisplayName-DoNotAsk-CythonDebuggerExtensionAvailable": "Python debugger extension available",
+    "Notification.DisplayName-DoNotAsk-GitHub Copilot": "GitHub Copilot",
+    "Notification.DoNotAsk-CythonDebuggerExtensionAvailable": "true",
+    "Notification.DoNotAsk-GitHub Copilot": "true",
+    "PG_DUMP_CLI_PACK_LAST_USED_CONFIGURATION": "PG_DUMP_PROPERTIES",
+    "PG_DUMP_PROPERTIES_0b2782ec-adc2-48c5-9b6f-f1b32d08c373_COMMAND": "--dbname=\"harmony_db\" --schema='public' --table=public.\"operation_tools_historicalstatementdepositdetection\" --table=public.\"operation_tools_historicalstatementdepositdetectionlogproxy\" --table=public.\"operation_tools_statementdepositdetection\" --table=public.\"operation_tools_statementdepositdetectionfetchlog\" --file=\"/home/vahidtwo/{data_source}-{timestamp}-dump.sql\" --data-only",
+    "PG_DUMP_PROPERTIES_0b2782ec-adc2-48c5-9b6f-f1b32d08c373_PATH": "/usr/bin/pg_dump",
+    "PG_DUMP_PROPERTIES_EXPANDED": "true",
+    "PG_DUMP_PROPERTIES_VARIANTS_v21694034474": "-f --file= -F --format= -j --jobs= -v --verbose -V --version -Z --compress= --lock-wait-timeout= --no-sync --sync-method= --help -a --data-only -b --large-objects --blobs -B --no-large-objects --no-blobs -c --clean -C --create -e --extension= -E --encoding= -n --schema= -N --exclude-schema= -O --no-owner -s --schema-only -S --superuser= -t --table= -T --exclude-table= -x --no-privileges --binary-upgrade --column-inserts --disable-dollar-quoting --disable-triggers --enable-row-security --exclude-extension= --exclude-table-and-children= --exclude-table-data= --exclude-table-data-and-children= --extra-float-digits= --filter= --if-exists --include-foreign-data= --inserts --load-via-partition-root --no-comments --no-publications --no-security-labels --no-subscriptions --no-table-access-method --no-tablespaces --no-toast-compression --no-unlogged-table-data --on-conflict-do-nothing --quote-all-identifiers --rows-per-insert= --section= --serializable-deferrable --snapshot= --strict-names --table-and-children= --use-set-session-authorization -d --dbname= -h --host= -p --port= -U --username= -w --no-password -W --password --role= <",
+    "PG_DUMP_PROPERTIES_ae59d462-eb32-4319-a801-0598ed152e7d_COMMAND": " --file=\"/home/vahidtwo/{data_source}-{timestamp}-dump.sql\"",
+    "PG_DUMP_PROPERTIES_ae59d462-eb32-4319-a801-0598ed152e7d_PATH": "/usr/bin/pg_dump",
+    "PG_RESTORE_CLI_PACK_LAST_USED_CONFIGURATION": "PG_RESTORE_PROPERTIES",
+    "PG_RESTORE_PROPERTIES_EXPANDED": "true",
+    "PG_RESTORE_PROPERTIES_VARIANTS_v2203140760": "-d --dbname= -f --file= -F --format= -l --list -v --verbose -V --version --help -a --data-only -c --clean -C --create -e --exit-on-error -I --index= -j --jobs= -L --use-list= -n --schema= -N --exclude-schema= -O --no-owner -P --function= -s --schema-only -S --superuser= -t --table= -T --trigger= -x --no-privileges --single-transaction --disable-triggers --enable-row-security --filter= --if-exists --no-comments --no-data-for-failed-tables --no-publications --no-security-labels --no-subscriptions --no-table-access-method --no-tablespaces --section= --strict-names --transaction-size= --use-set-session-authorization -h --host= -p --port= -U --username= -w --no-password -W --password --role= --section <",
+    "PG_RESTORE_PROPERTIES_be511e1f-db5c-4acb-b4a6-c3438246462f_COMMAND": "--dbname=\"toman_core_stg\" \"/home/vahidtwo/TomanDatabaseBackup/qbit_staging.sql\"",
+    "PG_RESTORE_PROPERTIES_be511e1f-db5c-4acb-b4a6-c3438246462f_PATH": "/usr/bin/pg_restore",
+    "PSQL_RESTORE_CONFIGURATION_VARIANTS_v21734433584": "-c --command= -d --dbname= -f --file= -l --list -v --set= --variable= -V --version -X --no-psqlrc --single-transaction --help --help= -a --echo-all -b --echo-errors -e --echo-queries -E --echo-hidden -L --log-file= -n --no-readline -o --output= -q --quiet -s --single-step -S --single-line -A --no-align --csv -F --field-separator= -H --html -P --pset= -R --record-separator= -t --tuples-only -T --table-attr= -x --expanded -z --field-separator-zero --record-separator-zero -h --host= -p --port= -U --username= -w --no-password -W --password <",
+    "PluginConfigurable.selectionTab": "1",
+    "ProjectStructure.SecondLevelElements": "0.43583226",
+    "PyCharm.InitialConfiguration": "true",
+    "PyCharm.InitialConfiguration.V2": "true",
+    "PyCharm.InitialConfiguration.V3": "true",
+    "PyCharm.InitialConfiguration.V4": "true",
+    "PyCharm.InitialConfiguration.V5": "true",
+    "PyCharm.InitialConfiguration.V6": "true",
+    "PyCharm.InitialConfiguration.V7": "true",
+    "PyCharm.InitialConfiguration.V8": "true",
+    "PyCharm.Poetry.Path": "/home/vahidtwo/.local/bin/poetry",
+    "PythonUnitTestRunner.Splitter.Proportion": "0.14960867",
+    "PythonUnitTestRunnerSupport.hideIgnoredTests": "true",
+    "RunOnceActivity.AccountsToCodyMigration": "true",
+    "RunOnceActivity.CodyApplicationSettingsMigration": "true",
+    "RunOnceActivity.Run Grazie Token Refresher": "true",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.deprecation.notification": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.llm.show.ai.promotion.window.on.start": "true",
+    "RunOnceActivity.pycharm.endpoints.tab.on.search.everywhere.enabled": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "RunOnceActivity.zielu.gittoolbox.worktree.promo.1": "true",
+    "SHELLCHECK.PATH": "",
+    "SettingsSearchHistory": "mcp\ngitlab\ncopilo\ncode reformat\nruff",
+    "ShowUsagesActions.splitterServiceKey": "0.20562561",
+    "SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION": "0.44558823",
+    "SqlStructureView.filterD.file.structure.state": "true",
+    "SvgEditorLayout": "Editor only",
+    "TextEditorWithPreview.SplitterProportionKey": "0.6047904",
+    "Vcs.Log.Text.Filter.History": "7509d2b5dbd24ff1342f3a2f2208b21eac78213c\nvahid\ntemp",
+    "WelcomeFeature.SHORT_WELCOME_GUIDE_SHOWN": "true",
+    "aia.promo.page": "true",
+    "aia.promo.page.closed": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "bidi.content.notification.disable": "true",
+    "codeium.api_key": "668e4609-a2af-421e-ba99-842ade075575",
+    "com.github.patou.gitmoji.language": "auto",
+    "com.google.tools.ij.aiplugin.ide_session_index": "20250127_0000",
+    "com.google.tools.ij.aiplugin.onboarding_session_index": "20250127_0000",
+    "com.hmydk.aigit.version": "1.5.0",
+    "com.intellij.database.actions.DbDeleteProvider$2.proportion": "0.5",
+    "com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog.proportion": "-0.5",
+    "com.intellij.database.actions.ddl.DbModifyObjectDialog.proportion": "0.8720682",
+    "com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0": "300",
+    "com.intellij.history.integration.ui.views.FileHistoryDialog.0": "300",
+    "com.intellij.history.integration.ui.views.FileHistoryDialog.1": "800",
+    "com.intellij.history.integration.ui.views.SelectionHistoryDialog.0": "300",
+    "com.intellij.history.integration.ui.views.SelectionHistoryDialog.1": "800",
+    "com.intellij.kubernetes.view.ui.settings.KubernetesPodShellSettingsPanel.shellCommand": "",
+    "copilot.agent.session.splitter": "0.7534469",
+    "database.data.extractors.output.dir": "/home/vahidtwo/p/harmony/_resources",
+    "database.data.extractors.sql.skip.computed": "false",
+    "database.notebook.setting.id": "8f5741b4-7044-4de6-9c46-bbe74209f821",
+    "datagrid.limit.default.page.size.big": "true",
+    "debugger.smart.chooser.counter": "3",
+    "debugger.speed.search.tree.option.hint.counter": "1",
+    "delete.locally.added.files": "true",
+    "disable.forced.soft.wraps.notification": "true",
+    "enter_selection_count": "5",
+    "evlsprt.241": "18a91d88200",
+    "evlsprt.243": "18a91d88200",
+    "evlsprt3.241": "4",
+    "evlsprt3.243": "7",
+    "evlsprt3.251": "5",
+    "evlsprt3.252": "6",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "252.28238.29",
+    "experimentalFeature.terminal.shell.command.handling": "false",
+    "export.settings.path": "/home/vahidtwo/pycharm-settings.zip",
+    "file.gist.reindex.count": "40",
+    "fileTypeChangedCounter": "171",
+    "find.popup.splitter": "0.43336624",
+    "fontSizeToResetConsole": "17.0",
+    "fontSizeToResetEditor": "17.0",
+    "full.line.logs.sending.asked": "true",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.PyDataViewActionsWereMoved": "1",
+    "got.it.tooltip.ai.assistant.commit.message.editor.options.prompt.customization": "1",
+    "got.it.tooltip.ai.assistant.commit.message.generation.and.branch.reference": "1",
+    "got.it.tooltip.cody.autocomplete.gotIt": "1",
+    "got.it.tooltip.copilot.inlayGotIt": "1",
+    "got.it.tooltip.copilot.inlayPartialGotIt": "1",
+    "got.it.tooltip.coverage.view.elements.by.branch.filter": "1",
+    "got.it.tooltip.coverage.view.elements.filter": "1",
+    "got.it.tooltip.database.schema.control.got.it": "1",
+    "got.it.tooltip.github.copilot.inline.diffable.response": "1",
+    "got.it.tooltip.js.debugger.terminal.start.debugger.from.url": "1",
+    "got.it.tooltip.llm.vcs.shelve.title.generation.tooltip": "1",
+    "got.it.tooltip.new.terminal.promotion": "1",
+    "got.it.tooltip.new.terminal.promotion.243": "1",
+    "got.it.tooltip.reader.mode.got.it": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "got.it.tooltip.speed.search.shown": "1",
+    "got.it.tooltip.web.preview.reload.on.save": "1",
+    "gotit.previous.run": "PY-241.14494.241",
+    "ide.islands.ab2": "true",
+    "ide.memory.adjusted": "true",
+    "idea.islands.enabled": "true",
+    "input.method.disabler.auto": "true",
+    "input.method.disabler.muted": "true",
+    "insyncwithfoo.ryecharm.uv.actions.Update.executablesToLastChecked": "{\"/usr/bin/uv\":\"2025-09-24T16:17:20.601326977Z\"}",
+    "junie.gpt5ModelAvailable": "true",
+    "junie.openOnceAfterInstall": "true",
+    "large.file.editor.notification.disabled": "true",
+    "last_opened_file_path": "/home/vahidtwo/pp/dotfiles_v3",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "llm.third.party.ai.services.acknowledgement.accepted": "true",
+    "local.user.name": "",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "mt.autoReset": "true",
+    "mt.showStatisticsAgreement": "true",
+    "previousColorScheme": "_@user_Dark",
+    "promo.ignore.ultimate.edition": "true",
+    "pycharm.django.structure.promotion.last.timestamp": "1720865430553",
+    "pycharm.django.structure.promotion.overall.count": "3",
+    "python.confirm.package.installation": "false",
+    "python.move.module.members.dialog.show.table": "true",
+    "python.new.interpreter.fav.manager": "VIRTUALENV",
+    "python.new.interpreter.fav.method": "CREATE_NEW",
+    "python.new.interpreter.fav.mode": "CUSTOM",
+    "registry.to.advanced.settings.migration.build": "PY-252.28238.29",
+    "selected.color.option.type": "INLAY_TEXT_WITHOUT_BACKGROUND",
+    "settings.code.style.selected.tab.Python": "Wrapping and Braces",
+    "settings.code.style.selected.tab.SQL": "Wrapping",
+    "terminal.gen.one.option.visible": "false",
+    "thinClient.ws": "true",
+    "toolwindow.showToolWindowsNames.ts": "2025-11-20T13:57:07.858572801",
+    "toolwindow.showToolWindowsNames.value": "true",
+    "trial.state.last.availability.check": "1765290514950",
+    "trial.state.last.availability.state": "false",
+    "trial.state.last.state": "EXPIRED",
+    "ts.lib.d.ts.version": "5.7.3",
+    "vcs.history.diff.splitter.proportion": "0.2796518",
+    "whats.new.last.shown.version": "2025-2.0.1-23892-bf9800fe06357a8d934337c13de66c2b153b9545"
+  },
+  "keyToStringList": {
+    "AIHubNotificationManager.gotItNotifications": [],
+    "AIHubNotificationManager.lastAllNotifications": [
+      "NO_LOCAL_MODELS"
+    ],
+    "AIHubNotificationManager.notifications": [
+      "NO_LOCAL_MODELS"
+    ],
+    "AIHubNotificationManager.seenNotifications": [
+      "NO_LOCAL_MODELS"
+    ],
+    "DAILY_ACTION_TIMESTAMPS": [
+      "2025-01-27T07:36:18.603276391Z"
+    ],
+    "file.chooser.recent.files": [
+      "/home/vahidtwo/pp/dotfiles_v3",
+      "/home/vahidtwo/pp/dotfiles_v2",
+      "/home/vahidtwo/p/escrow-django/eaas/side_effects",
+      "/home/vahidtwo/p/escrow-django/.junie/guidelines.md",
+      "/home/vahidtwo/p/keycloak-sms-authenticator",
+      "/home/vahidtwo/p/qpay-backend/pyproject.toml",
+      "/home/vahidtwo/p/toman-pay-backend/settings/config/settings.py",
+      "/home/vahidtwo/p/toman-pay-backend/settings/config",
+      "/home/vahidtwo/p/toman-pay-backend",
+      "/home/vahidtwo/pp/core",
+      "/home/vahidtwo/TomanDatabaseBackup/qbit_staging.sql",
+      "/home/vahidtwo/PycharmProjects/DjangoProject/.venv/bin/python",
+      "/home/vahidtwo/p/qpay-backend/doc_src",
+      "/home/vahidtwo/p/qpay-backend/.venv/bin/python",
+      "/home/vahidtwo/p/escrow-agw-conf",
+      "/home/vahidtwo/p/escrow-django",
+      "/home/vahidtwo/p/escrow-django/.venv/bin/python",
+      "/home/vahidtwo/p/qpay-backend/qpay/settings/__init__.py",
+      "/home/vahidtwo/p/qpay-backend",
+      "/home/vahidtwo/TomanDatabaseBackup/toman_auth_staging.sql",
+      "/home/vahidtwo/TomanDatabaseBackup/toman_auth_staging_2025_05_08.sql",
+      "/home/vahidtwo/p/gooyal_accounts/utils/keycloak",
+      "/home/vahidtwo/p/escrow-django/escrow/settings",
+      "/home/vahidtwo/p/swap/swap/settings",
+      "/run/media/vahidtwo/E829-F56A/toman_swap_master_prod_20241215_05.dmp",
+      "/home/vahidtwo/p/swap/apps/ldap",
+      "/home/vahidtwo/p/harmony/toman_services/intersection/__init__.py",
+      "/home/vahidtwo/p/report",
+      "/home/vahidtwo/pp/tile-generator",
+      "/home/vahidtwo/p/harmony/_resources/operation_tools_tomantransactionsummary.sql"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="PyCodeInsightSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FUNCTION" value="true" />
+    <option name="RENAME_SEARCH_NON_CODE_FOR_FUNCTION" value="true" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_VARIABLE" value="true" />
+  </component>
+  <component name="SearchOptions">
+    <option name="fuState">
+      <list />
+    </option>
+    <option name="suState">
+      <list />
+    </option>
+  </component>
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;CtrlW&quot;: 1712680098666,
+    &quot;SpeedSearch&quot;: 1713383196309,
+    &quot;SearchEverywhere&quot;: 1713246540515,
+    &quot;GoToDeclaration&quot;: 1713169110252,
+    &quot;CommentCode&quot;: 1713818871680,
+    &quot;FindReplaceToggle&quot;: 1712833501650,
+    &quot;ShowUsages&quot;: 1712742596681
+  },
+  &quot;proposedTips&quot;: {
+    &quot;CtrlW&quot;: 1712680098512,
+    &quot;SpeedSearch&quot;: 1713383196017,
+    &quot;SearchEverywhere&quot;: 1713246538476,
+    &quot;GoToDeclaration&quot;: 1713169110130,
+    &quot;CommentCode&quot;: 1713818871431,
+    &quot;FindReplaceToggle&quot;: 1712833501520,
+    &quot;ShowUsages&quot;: 1712742583380
+  },
+  &quot;tipsOrderSeed&quot;: 1712680098464
+}</component>
+</application>

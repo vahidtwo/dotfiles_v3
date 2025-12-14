@@ -1,0 +1,52 @@
+apiVersion: v1
+data:
+  ALLOWED_HOSTS: '*'
+  CASH_FLOW_MANAGEMENT_SERVICE_BASE_API_URL: toman-ganza.toman-ganza.svc.cluster.local:8080/internal
+  CASH_FLOW_MANAGEMENT_SERVICE_SLAVE_DB_NAME: ganza
+  CHECKOUT_SERVICE_BASE_API_URL: checkout.toman-settlement.svc.cluster.local:8080/internal
+  CHECKOUT_SERVICE_SLAVE_DB_NAME: checkout
+  COOPERATE_BANKING_SERVICE_BASE_API_URL: ""
+  COOPERATE_BANKING_SERVICE_SLAVE_DB_NAME: dbank
+  CSRF_TRUSTED_ORIGINS: https://harmony.qcluster.org
+  DEBUG: "false"
+  ENABLE_PARQUET_CHECK_ALERTING: "false"
+  ETAM_SERVICE_BASE_API_URL: etam.toman-etam.svc.cluster.local:8080/internal
+  ETAM_SERVICE_SLAVE_DB_NAME: etam
+  HARMONY_S3_BUCKET_NAME: toman-harmony-txn
+  HARMONY_S3_BUCKET_NAME_DEVELOP: toman-harmony-txn-develop
+  HARMONY_S3_BUCKET_NAME_STAGING: toman-harmony-txn-staging
+  HARMONY_S3_ENDPOINT: s3.qcluster.org
+  HARMONY_S3_ENDPOINT_DEVELOP: s3.qcluster.org
+  HARMONY_S3_ENDPOINT_STAGING: s3.qcluster.org
+  IPG_SERVICE_BASE_API_URL: toman-ipg.toman-ipg.svc.cluster.local:8080/internal
+  IPG_SERVICE_SLAVE_DB_NAME: ipg
+  OAUTH_URL: toman-auth.toman-auth.svc.cluster.local:8080/internal
+  PHASE: production
+  SENTRY_DSN: https://80cad7ae89bb233d75bcbbe37b94763a@sentry.qcluster.org/78
+  SETTLEMENT_SERVICE_BASE_API_URL: settlement.toman-settlement.svc.cluster.local:8080/internal
+  SETTLEMENT_SERVICE_SLAVE_DB_NAME: settlement
+  SKY_LOG_ALERTING_BASE_URL: https://skylogs.qcluster.org/api/v1/
+  SKY_LOG_DEFAULT_ALERT_NAME: ""
+  SKY_LOG_ENABLED: "true"
+  SKY_LOG_URL: ""
+  SLAVE_DB_NAME_POSTFIX: ""
+  SLAVE_DB_NAME_PREFIX: toman_
+  STATEMENT_ADMIN_URL: statement-api.toman.ir/l6TjjC4by2tob8Xqj2xXfcytLyy1Ka29/
+  STATEMENT_SERVICE_SLAVE_DB_NAME: statement
+  SWAP_SERVICE_BASE_API_URL: toman-swap.toman-swap.svc.cluster.local:8080/internal
+  SWAP_SERVICE_SLAVE_DB_NAME: swap
+kind: ConfigMap
+metadata:
+  annotations:
+    helm.sh/hook: pre-install,pre-upgrade
+  creationTimestamp: "2025-02-24T08:30:42Z"
+  labels:
+    app.kubernetes.io/instance: harmony
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: toman-harmony
+    app.kubernetes.io/version: 1.16.0
+    helm.sh/chart: harmony-0.1.1
+  name: harmony
+  namespace: toman-harmony
+  resourceVersion: "192044019"
+  uid: 3c108f01-0108-42f3-8db2-3d5587208586

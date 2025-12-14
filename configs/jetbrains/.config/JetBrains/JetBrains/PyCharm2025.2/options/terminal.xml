@@ -1,0 +1,14 @@
+<application>
+  <component name="BlockTerminalUsage">
+    <option name="blockTerminalDisabledLastTimeMillis" value="1744628955371" />
+    <option name="blockTerminalUsedLastTimeMillis" value="1744628778901" />
+    <option name="blockTerminalUsedLastVersion" value="243.26053.29" />
+    <shellToExecutedCommandsNumber>
+      <entry key="zsh" value="6" />
+    </shellToExecutedCommandsNumber>
+  </component>
+  <component name="ReworkedTerminalUsage"><![CDATA[{
+  "feedbackNotificationShown": true,
+  "enterKeyPressedTimes": 2220
+}]]></component>
+</application>

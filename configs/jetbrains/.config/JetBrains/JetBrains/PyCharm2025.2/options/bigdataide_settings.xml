@@ -1,0 +1,19 @@
+<application>
+  <component name="RfsDownloadedStorageManager">
+    <option name="fileList">
+      <list>
+        <option value="home/vahidtwo/p/harmony/_resources/ducdb/Result_2.csv" />
+        <option value="home/vahidtwo/p/harmony/_resources/ducdb/settle_sara/operation_tools_statementdepositdetection.csv" />
+        <option value="home/vahidtwo/p/harmony/_resources/not-src-account-checkout.csv" />
+        <option value="home/vahidtwo/p/harmony/_resources/mf_mellat_harmony.csv" />
+        <option value="file__home_vahidtwo_p_harmony__resources_ducdb_settle_sara_nf_settle_origin_parquet_0/nf_settle_origin.parquet(downloaded)" />
+        <option value="file__home_vahidtwo_p_harmony__resources_ducdb_settle_sara_nf_op_origin_parquet_0/nf_op_origin.parquet(downloaded)" />
+        <option value="founded.parquet" />
+        <option value="home/vahidtwo/p/harmony/_resources/ducdb/melli-meta-id-2.csv" />
+        <option value="file__home_vahidtwo_p_harmony__resources_ducdb_settle_sara_sara_settle_parquet_0/sara_settle.parquet(downloaded)" />
+        <option value="home/vahidtwo/p/harmony/_resources/harmony-divar.csv" />
+      </list>
+    </option>
+    <option name="mainDirPath" value="/tmp/HDFS-downloaded" />
+  </component>
+</application>

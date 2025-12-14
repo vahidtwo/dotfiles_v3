@@ -1,0 +1,91 @@
+<application>
+  <component name="FileEditorProviderManager">{
+  &quot;selectedProviders&quot;: {
+    &quot;com.intellij.database.editor.DatabaseTableFileEditorProvider,scripted-data-editor&quot;: &quot;com.intellij.database.editor.DatabaseTableFileEditorProvider&quot;
+  }
+}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Vazir" />
+    <option name="fontSize" value="14.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "DG.SingleStripe.Customization2": "true",
+    "DG.SingleStripe.LastLocale": "en",
+    "DbRenameDialog.previewExpanded": "true",
+    "FindSplitterProportion": "0.5361513",
+    "InstalledPluginsSearchHistory": "ai\nline\nli",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "DB-251.26094.87",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/extractors": "DB-251.26094.87",
+    "MYSQL_DUMP_CLI_PACK_LAST_USED_CONFIGURATION": "MYSQL_PROPERTIES",
+    "MYSQL_PROPERTIES_144e90f4-ae76-48f5-87c7-6ca23afc62ed_COMMAND": "\"toman_swap\" --result-file=\"/home/vahidtwo/{data_source}-{timestamp}-dump.sql\" --skip-lock-tables",
+    "MYSQL_PROPERTIES_144e90f4-ae76-48f5-87c7-6ca23afc62ed_PATH": "/usr/bin/mysqldump",
+    "MYSQL_PROPERTIES_EXPANDED": "true",
+    "MYSQL_PROPERTIES_VARIANTS_v2-753420028": "--databases --all-databasesOR --system= -A --all-databases -Y --all-tablespaces -y --no-tablespaces --add-drop-database --add-drop-table --skip-add-drop-table --add-drop-trigger --add-locks --skip-add-locks --allow-keywords --apply-slave-statements --as-of= --tz-utc --character-sets-dir= -i --comments --skip-comments --compatible= --compact --skip-disable-keys --skip-set-charset -c --complete-insert -C --compress --copy-s3-tables -a --create-options --skip-create-options -B -# --debug --debug-check --debug-info --default-character-set= --delayed-insert --delete-master-logs --master-data -D --dir= --tab -K --disable-keys --dump-date --skip-dump-date -H --dump-history --update-history --dump-slave --lock-all-tables --single-transaction --lock-tables -E --events -e --extended-insert --skip-extended-insert --fields-terminated-by= --fields-enclosed-by= --fields-optionally-enclosed-by= --fields-escaped-by= -F --flush-logs --databases= --flush-privileges -f --force --gtid --master-data= --dump-slave= --header --help --hex-blob -h --host= --ignore-database= --ignore-table-data= --ignore-table= --include-master-host-port --insert-ignore --lines-terminated-by= -x -l --skip-lock-tables --log-error= --log-queries --skip-log-queries --max-allowed-packet= --max-statement-time= --net-buffer-length= --no-autocommit --skip-no-autocommit -n --no-create-db -t --no-create-info -d --no-data --no-data-med --skip-no-data-med -N --no-set-names --opt --quick --set-charset --skip-opt --order-by-primary --order-by-size -p --password -j --parallel= -P --port= --protocol= -q --skip-quick -Q --quote-names --skip-quote-names --replace -r --result-file= -R --routines -S --socket= --ssl --skip-ssl --ssl-ca= --ssl-capath= --ssl-cert= --ssl-cipher= --ssl-key= --ssl-crl= --ssl-crlpath= --tls-version= --ssl-fp= --ssl-fplist= --ssl-verify-server-cert --skip-ssl-verify-server-cert -T --tab= --tables --triggers --skip-triggers --skip-tz-utc -u --user= -v --verbose -V --version -w --where= -X --xml --plugin-dir= --default-auth=",
+    "Markdown Split EditorLayout": "Editor only",
+    "MarketplacePluginsSearchHistory": "ai /sortBy:downloads\nai\na\nali",
+    "NextRunPlatformUpdateBuild": "DB-251.28774.20",
+    "NextRunPlatformUpdateSelfBuild": "DB-251.26094.87",
+    "NextRunPlatformUpdateVersion": "2025.1.4",
+    "PG_DUMP_CLI_PACK_LAST_USED_CONFIGURATION": "PG_DUMP_PROPERTIES",
+    "PG_DUMP_PROPERTIES_EXPANDED": "true",
+    "PG_DUMP_PROPERTIES_VARIANTS_v21694034474": "-f --file= -F --format= -j --jobs= -v --verbose -V --version -Z --compress= --lock-wait-timeout= --no-sync --sync-method= --help -a --data-only -b --large-objects --blobs -B --no-large-objects --no-blobs -c --clean -C --create -e --extension= -E --encoding= -n --schema= -N --exclude-schema= -O --no-owner -s --schema-only -S --superuser= -t --table= -T --exclude-table= -x --no-privileges --binary-upgrade --column-inserts --disable-dollar-quoting --disable-triggers --enable-row-security --exclude-extension= --exclude-table-and-children= --exclude-table-data= --exclude-table-data-and-children= --extra-float-digits= --filter= --if-exists --include-foreign-data= --inserts --load-via-partition-root --no-comments --no-publications --no-security-labels --no-subscriptions --no-table-access-method --no-tablespaces --no-toast-compression --no-unlogged-table-data --on-conflict-do-nothing --quote-all-identifiers --rows-per-insert= --section= --serializable-deferrable --snapshot= --strict-names --table-and-children= --use-set-session-authorization -d --dbname= -h --host= -p --port= -U --username= -w --no-password -W --password --role= <",
+    "PG_DUMP_PROPERTIES_a13af626-e871-4006-b3d5-2de596f5c3e1_COMMAND": "--dbname=\"toman_harmony\" --schema='public' --table=public.\"statement_normalizedstatement\" --file=\"/home/vahidtwo/{data_source}-{timestamp}-dump.sql\"",
+    "PG_DUMP_PROPERTIES_a13af626-e871-4006-b3d5-2de596f5c3e1_PATH": "/usr/bin/pg_dump",
+    "PG_RESTORE_PROPERTIES_VARIANTS_v2203140760": "-d --dbname= -f --file= -F --format= -l --list -v --verbose -V --version --help -a --data-only -c --clean -C --create -e --exit-on-error -I --index= -j --jobs= -L --use-list= -n --schema= -N --exclude-schema= -O --no-owner -P --function= -s --schema-only -S --superuser= -t --table= -T --trigger= -x --no-privileges --single-transaction --disable-triggers --enable-row-security --filter= --if-exists --no-comments --no-data-for-failed-tables --no-publications --no-security-labels --no-subscriptions --no-table-access-method --no-tablespaces --section= --strict-names --transaction-size= --use-set-session-authorization -h --host= -p --port= -U --username= -w --no-password -W --password --role= --section <",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.deprecation.notification": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.llm.show.ai.promotion.window.on.start": "true",
+    "SettingsSearchHistory": "limit\nai\nline",
+    "SqlStructureView.filterD.file.structure.state": "true",
+    "aia.promo.page": "true",
+    "aia.promo.page.closed": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "bidi.content.notification.disable": "true",
+    "com.intellij.database.actions.DbDeleteProvider$2.proportion": "0.5",
+    "com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog.proportion": "0.5",
+    "com.intellij.database.actions.ddl.DbModifyObjectDialog.proportion": "0.73214287",
+    "database.data.extractors.output.dir": "/home/vahidtwo/swap",
+    "database.data.extractors.sql.skip.computed": "false",
+    "database.notebook.setting.id": "2b4e32dd-3fe3-4770-83ad-90018845bd17",
+    "disable.forced.soft.wraps.notification": "true",
+    "enter_selection_count": "5",
+    "evlsprt3.243": "3",
+    "evlsprt3.251": "7",
+    "experimental.ui.used.version": "251.26094.87",
+    "file.gist.reindex.count": "1",
+    "fileTypeChangedCounter": "8",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.database.schema.control.got.it": "1",
+    "got.it.tooltip.speed.search.shown": "1",
+    "ide.memory.adjusted": "true",
+    "input.method.disabler.muted": "true",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER_AIA_DISABLED",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Darcula Contrast",
+    "registry.to.advanced.settings.migration.build": "DB-251.26094.87",
+    "settings.code.style.selected.tab.SQL": "Queries"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/vahidtwo/swap",
+      "/home/vahidtwo/p/harmony/_resources/__partner_id.sql",
+      "/home/vahidtwo",
+      "/home/vahidtwo/p/harmony/_resources",
+      "/home/vahidtwo/p/harmony/_resources/ducdb",
+      "/home/vahidtwo/DataGripProjects/cv"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector"
+    ]
+  }
+}]]></component>
+</application>

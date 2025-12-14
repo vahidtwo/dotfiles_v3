@@ -1,0 +1,8 @@
+<application>
+  <component name="CsvEditorSettings">
+    <option name="CURRENT_PLUGIN_VERSION" value="4.0.2" />
+    <option name="CARET_ROW_SHOWN" value="true" />
+    <option name="EDITOR_PRIO" value="TABLE_FIRST" />
+    <option name="KEEP_TRAILING_SPACES" value="true" />
+  </component>
+</application>

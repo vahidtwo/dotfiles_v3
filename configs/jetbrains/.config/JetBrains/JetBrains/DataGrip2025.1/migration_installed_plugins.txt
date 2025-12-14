@@ -1,0 +1,7 @@
+com.alibabacloud.intellij.cosy
+com.intellij.ml.llm
+com.github.patou.gitmoji
+ChatGPT
+com.intellij.bigdatatools.binary.files
+org.jetbrains.plugins.gitlab
+com.intellij.bigdatatools.core

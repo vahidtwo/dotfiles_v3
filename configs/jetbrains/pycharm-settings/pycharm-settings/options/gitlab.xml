@@ -1,0 +1,14 @@
+<application>
+  <component name="GitLabAccounts"><![CDATA[{
+  "accounts": [
+    {
+      "id": "5eb30a4d-dd73-4fc9-9b6e-a8ce3b28d149",
+      "name": "vahidtwo",
+      "server": {
+        "uri": "https://gitlab.qcluster.org"
+      }
+    }
+  ]
+}]]></component>
+  <component name="GitLabSettings"><![CDATA[{}]]></component>
+</application>

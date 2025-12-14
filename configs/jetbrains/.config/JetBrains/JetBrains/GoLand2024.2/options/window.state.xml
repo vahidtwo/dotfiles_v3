@@ -1,0 +1,37 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.3440.1440" x="1482" y="159" />
+    <location key="find.popup.0.0.1920.1200" x="827" y="245" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1838" height="220" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1838" height="220" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1838" height="220" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1838" height="220" />
+    <size key="GridCell.Tab.0.left.0.0.3440.1440" width="1679" height="336" />
+    <size key="GridCell.Tab.0.center.0.0.3440.1440" width="1679" height="336" />
+    <size key="GridCell.Tab.0.right.0.0.3440.1440" width="1679" height="336" />
+    <size key="GridCell.Tab.0.bottom.0.0.3440.1440" width="1679" height="336" />
+    <size key="GridCell.Tab.1.left.0.0.3440.1440" width="1679" height="336" />
+    <size key="GridCell.Tab.1.center.0.0.3440.1440" width="1679" height="336" />
+    <size key="GridCell.Tab.1.right.0.0.3440.1440" width="1679" height="336" />
+    <size key="GridCell.Tab.1.bottom.0.0.3440.1440" width="1679" height="336" />
+    <size key="find.popup.0.0.3440.1440" width="644" height="996" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1200" width="1838" height="345" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1200" width="1838" height="345" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1200" width="1838" height="345" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1200" width="1838" height="345" />
+    <size key="find.popup.0.0.1920.1200" width="644" height="746" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1838" height="330" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1838" height="330" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1838" height="330" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1838" height="330" />
+  </component>
+  <component name="WindowManager">
+    <frame x="0" y="24" width="3440" height="1416" extendedState="6" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="1720" y="604" width="800" height="650" key="WELCOME_SCREEN" timestamp="1726668410570">
+      <screen x="0" y="24" width="3440" height="1416" />
+    </state>
+    <state x="1720" y="604" width="800" height="650" key="WELCOME_SCREEN/0.24.3440.1416" timestamp="1726668410570" />
+  </component>
+</application>

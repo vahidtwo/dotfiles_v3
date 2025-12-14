@@ -1,0 +1,8 @@
+<application>
+  <component name="insyncwithfoo.ryecharm.configurations.ruff.Global">
+    <option name="configurationFile" value="$USER_HOME$/p/qpay-backend/pyproject.toml" />
+    <option name="crossPlatformExecutableResolution" value="false" />
+    <option name="fixOnSave" value="true" />
+    <option name="formatOnSave" value="true" />
+  </component>
+</application>

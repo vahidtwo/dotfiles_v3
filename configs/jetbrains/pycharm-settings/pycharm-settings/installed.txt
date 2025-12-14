@@ -1,0 +1,9 @@
+com.intellij.ideolog
+com.github.patou.gitmoji
+com.koxudaxi.ruff
+com.intellij.bigdatatools.core
+com.intellij.bigdatatools.binary.files
+com.intellij.bigdatatools.rfs
+com.intellij.bigdatatools.metastore.core
+com.github.copilot
+com.intellij.bigdatatools.spark
