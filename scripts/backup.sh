@@ -243,21 +243,26 @@ backup_fonts() {
 
     if [ -d "$HOME/.local/share/fonts" ]; then
         # Create font list for reference
-        find "$HOME/.local/share/fonts" -type f \( -name "*.ttf" -o -name "*.otf" -o -name "*.woff" -o -name "*.woff2" \) > "$fonts_dir/font-list.txt"
+        find "$HOME/.local/share/fonts" -type f \( -name "*.ttf" -o -name "*.otf" -o -name "*.woff" -o -name "*.woff2" \) 2>/dev/null > "$fonts_dir/font-list.txt"
 
         # Copy actual font files (preserving directory structure)
         log_info "Copying font files..."
-        rsync -av --include='*.ttf' --include='*.otf' --include='*.woff' --include='*.woff2' \
-              --include='*/' --exclude='*' \
-              "$HOME/.local/share/fonts/" "$fonts_dir/files/" 2>/dev/null || {
-            # Fallback if rsync fails - use cp
-            mkdir -p "$fonts_dir/files"
-            cp -r "$HOME/.local/share/fonts"/* "$fonts_dir/files/" 2>/dev/null || true
-        }
+        mkdir -p "$fonts_dir/files"
 
-        local font_count=$(cat "$fonts_dir/font-list.txt" | wc -l)
-        local font_size=$(du -sh "$fonts_dir/files" 2>/dev/null | cut -f1)
-        log_success "Backed up $font_count fonts (~$font_size)"
+        # Use find + cp to copy only accessible font files
+        cd "$HOME/.local/share/fonts" 2>/dev/null && \
+        find . -type f \( -name "*.ttf" -o -name "*.otf" -o -name "*.woff" -o -name "*.woff2" \) \
+            -exec cp --parents {} "$fonts_dir/files/" 2>/dev/null \; && \
+        cd - >/dev/null
+
+        local font_count=$(find "$fonts_dir/files" -type f \( -name "*.ttf" -o -name "*.otf" \) 2>/dev/null | wc -l)
+        local font_size=$(du -sh "$fonts_dir/files" 2>/dev/null | cut -f1 || echo "unknown")
+
+        if [ "$font_count" -gt 0 ]; then
+            log_success "Backed up $font_count fonts (~$font_size)"
+        else
+            log_warning "No fonts were copied. Check permissions on ~/.local/share/fonts"
+        fi
     else
         log_warning "No custom fonts directory found at ~/.local/share/fonts"
     fi

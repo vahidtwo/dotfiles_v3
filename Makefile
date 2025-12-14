@@ -12,6 +12,9 @@ backup:  ## Backup current system configuration
 	@echo "Running full backup..."
 	./scripts/backup.sh
 
+verify:  ## Verify backup completeness
+	@./scripts/verify-backup.sh
+
 backup-packages:  ## Backup only package lists
 	./scripts/backup.sh --packages
 
@@ -20,6 +23,18 @@ backup-gnome:  ## Backup only GNOME settings
 
 backup-configs:  ## Backup only application configs
 	./scripts/backup.sh --configs
+
+backup-fonts:  ## Backup fonts only (simple direct copy)
+	./scripts/backup-fonts-only.sh
+
+backup-fonts-manual:  ## Backup fonts manually (if script fails)
+	@echo "Backing up fonts manually..."
+	@mkdir -p fonts/files
+	@cd ~/.local/share/fonts && find . -type f \( -name "*.ttf" -o -name "*.otf" \) -exec cp --parents {} $(PWD)/fonts/files/ \; 2>/dev/null || true
+	@find ~/.local/share/fonts -type f \( -name "*.ttf" -o -name "*.otf" \) > fonts/font-list.txt 2>/dev/null
+	@echo "✅ Fonts backed up to fonts/files/"
+	@echo "Font count: $$(find fonts/files/ -type f | wc -l)"
+	@echo "Total size: $$(du -sh fonts/files/ | cut -f1)"
 
 install:  ## Full installation on new system
 	./install.sh

@@ -105,12 +105,19 @@ backup_item() {
         ensure_dir "$(dirname "$dest")"
         if [ -L "$source" ]; then
             # If it's a symlink, copy the target
-            cp -rL "$source" "$dest"
+            cp -rL "$source" "$dest" 2>/dev/null || cp -r "$source" "$dest" 2>/dev/null || true
         else
-            cp -r "$source" "$dest"
+            # Copy recursively, ignoring permission errors
+            cp -r "$source" "$dest" 2>/dev/null || true
         fi
-        log_success "Backed up: $source -> $dest"
-        return 0
+
+        if [ -e "$dest" ]; then
+            log_success "Backed up: $source -> $dest"
+            return 0
+        else
+            log_warning "Failed to backup: $source (permission issues?)"
+            return 1
+        fi
     else
         log_warning "Source not found: $source"
         return 1

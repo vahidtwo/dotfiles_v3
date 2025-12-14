@@ -32,8 +32,9 @@
 **/jetbrains/.config/JetBrains/**/uiDesigner.xml
 **/jetbrains/.config/JetBrains/**/dbnavigator.xml
 **/jetbrains/.config/JetBrains/**/consoles/
-**/jetbrains/.config/JetBrains/**/settingsSync/
-**/jetbrains/.config/JetBrains/**/.git/
+# Exclude git repo but keep settings
+**/jetbrains/.config/JetBrains/**/settingsSync/.git/
+**/jetbrains/.config/JetBrains/**/settingsSync/.metainfo/
 **/.git/
 
 # Git sensitive data
