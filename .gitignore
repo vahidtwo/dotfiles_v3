@@ -1,0 +1,49 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive data
+configs/ssh/.ssh/id_*
+configs/ssh/.ssh/known_hosts
+configs/gnupg/.gnupg/*.key
+configs/gnupg/.gnupg/private-keys-*
+*.secret
+*.token
+*.key
+
+# Local configs
+configs/*/.local/share/keyrings/
+configs/*/.local/share/gvfs-metadata/
+configs/*/.config/discord/Cache/
+configs/*/.config/*/Cache/
+configs/*/.config/*/CachedData/
+configs/*/.config/*/logs/
+configs/*/.cache/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.backup
+
+# Git
+.git/
+
+# Package manager caches
+*.deb
+*.rpm
+
