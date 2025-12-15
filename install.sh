@@ -167,6 +167,21 @@ setup_shell() {
     fi
 }
 
+setup_pycharm() {
+    log_info "Setting up PyCharm..."
+
+    if [ ! -f "$DOTFILES_ROOT/scripts/install-pycharm.sh" ]; then
+        log_warning "install-pycharm.sh not found. Skipping PyCharm setup."
+        return
+    fi
+
+    if confirm "Setup PyCharm IDE?"; then
+        bash "$DOTFILES_ROOT/scripts/install-pycharm.sh"
+    else
+        log_info "Skipped PyCharm setup"
+    fi
+}
+
 post_install() {
     log_info "Running post-installation tasks..."
 
