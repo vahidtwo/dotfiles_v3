@@ -79,7 +79,7 @@ install_aur_packages() {
         return
     fi
 
-    if [ ! -f "$pkg_dir/aur.txt" ]; then
+    if [ ! -f "$pkg_dir/pacman-aur.txt" ]; then
         log_info "No AUR packages to install"
         return
     fi
@@ -90,7 +90,7 @@ install_aur_packages() {
         if [[ -n "$package" ]] && [[ ! "$package" = "#"* ]]; then
             yay -S --needed --noconfirm "$package" 2>/dev/null || log_warning "Failed to install: $package"
         fi
-    done < "$pkg_dir/aur.txt"
+    done < "$pkg_dir/pacman-aur.txt"
 
     log_success "AUR packages installation completed"
 }

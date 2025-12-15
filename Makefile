@@ -40,7 +40,7 @@ help:  ## Show all available commands
 	@echo "  $(CYAN)make status$(RESET)            - Show git status"
 	@echo ""
 	@echo "Utilities:"
-	@echo "  $(CYAN)make setup$(RESET)             - Create package lists from examples"
+	@echo "  $(CYAN)make setup$(RESET)             - Backup current system packages"
 	@echo "  $(CYAN)make clean$(RESET)             - Remove temporary files"
 	@echo "  $(CYAN)make check$(RESET)             - Check for sensitive files"
 	@echo ""
@@ -59,32 +59,26 @@ backup:  ## Backup everything
 	@echo "💾 Running full backup..."
 	@./scripts/backup.sh
 
-first-time:  ## First time setup: create package lists + install
+first-time:  ## First time setup: backup current system + install
 	@echo "╔════════════════════════════════════════╗"
 	@echo "║      First Time Setup & Install       ║"
 	@echo "╚════════════════════════════════════════╝"
 	@echo ""
-	@echo "📦 Creating package lists from examples..."
-	@$(MAKE) --no-print-directory setup
+	@echo "📦 Creating package lists from current system..."
+	@$(MAKE) --no-print-directory backup-packages
 	@echo ""
 	@echo "✅ Package lists created!"
 	@echo ""
-	@echo "📝 You can edit them before installing:"
-	@echo "   - packages/pacman.txt"
-	@echo "   - packages/aur.txt"
-	@echo "   - packages/flatpak.txt (optional)"
+	@echo "📝 Package lists saved in packages/ directory"
 	@echo ""
 	@read -p "Press Enter to start installation (or Ctrl+C to cancel)..." dummy
 	@echo ""
 	@$(MAKE) --no-print-directory install
 
-setup:  ## Create package lists from examples
-	@test -f packages/pacman.txt || (cp packages/pacman.txt.example packages/pacman.txt && echo "✓ Created packages/pacman.txt")
-	@test -f packages/aur.txt || (cp packages/aur.txt.example packages/aur.txt && echo "✓ Created packages/aur.txt")
-	@test -f packages/flatpak.txt || (cp packages/flatpak.txt.example packages/flatpak.txt && echo "✓ Created packages/flatpak.txt")
-	@test -f packages/snap.txt || (cp packages/snap.txt.example packages/snap.txt && echo "✓ Created packages/snap.txt")
-	@test -f packages/pip.txt || (cp packages/pip.txt.example packages/pip.txt && echo "✓ Created packages/pip.txt")
-	@test -f packages/npm.txt || (cp packages/npm.txt.example packages/npm.txt && echo "✓ Created packages/npm.txt")
+setup:  ## Backup current system configuration (alternative to backup)
+	@echo "📦 Backing up current system packages..."
+	@./scripts/backup.sh --packages-only
+	@echo "✅ Package lists created from your current system"
 
 # ============================================================================
 # Individual Component Installation

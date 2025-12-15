@@ -82,7 +82,7 @@ make status            # Git status
 
 ### Utilities
 ```bash
-make setup             # Create package lists from examples
+make setup             # Backup current system packages
 make clean             # Remove temp files
 make check             # Check for sensitive files
 ```
@@ -93,13 +93,13 @@ make check             # Check for sensitive files
 
 Package lists in `packages/`:
 - `pacman.txt` - Arch Linux packages
-- `aur.txt` - AUR packages (requires yay)
+- `pacman-aur.txt` - AUR packages (requires yay)
 - `flatpak.txt` - Flatpak apps
 - `snap.txt` - Snap packages
 - `pip.txt` - Python packages
 - `npm.txt` - NPM global packages
 
-Use `make setup` to create from examples, or `make backup-packages` to backup current system.
+Use `make backup-packages` to backup your current system's packages.
 
 ---
 
@@ -183,7 +183,7 @@ Restart terminal: `source ~/.zshrc`
 ### Need to edit package lists?
 ```bash
 vim packages/pacman.txt
-vim packages/aur.txt
+vim packages/pacman-aur.txt
 # Then run: make install-packages
 ```
 
