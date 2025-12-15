@@ -48,7 +48,12 @@ install_system_packages() {
                 sudo pacman -Sy
 
                 log_info "Installing Pacman packages..."
-                sudo pacman -S --needed --noconfirm - < "$pkg_dir/pacman.txt" || log_warning "Some packages failed to install"
+                # Read packages line by line and install
+                while IFS= read -r package; do
+                    if [[ -n "$package" ]] && [[ ! "$package" = "#"* ]]; then
+                        sudo pacman -S --needed --noconfirm "$package" 2>/dev/null || log_warning "Failed to install: $package"
+                    fi
+                done < "$pkg_dir/pacman.txt"
             fi
             ;;
         *)
@@ -58,6 +63,36 @@ install_system_packages() {
     esac
 
     log_success "System packages installation completed"
+}
+
+install_aur_packages() {
+    local pkg_dir="$DOTFILES_ROOT/packages"
+
+    # Only run on Arch-based systems
+    local pm="$(detect_package_manager)"
+    if [ "$pm" != "pacman" ]; then
+        return
+    fi
+
+    if ! command_exists yay; then
+        log_warning "yay not installed, skipping AUR packages"
+        return
+    fi
+
+    if [ ! -f "$pkg_dir/aur.txt" ]; then
+        log_info "No AUR packages to install"
+        return
+    fi
+
+    log_info "Installing AUR packages..."
+
+    while IFS= read -r package; do
+        if [[ -n "$package" ]] && [[ ! "$package" = "#"* ]]; then
+            yay -S --needed --noconfirm "$package" 2>/dev/null || log_warning "Failed to install: $package"
+        fi
+    done < "$pkg_dir/aur.txt"
+
+    log_success "AUR packages installation completed"
 }
 
 install_flatpak_packages() {
@@ -241,6 +276,7 @@ main() {
 
     # Install packages
     install_system_packages
+    install_aur_packages
     install_flatpak_packages
     install_snap_packages
     install_pip_packages

@@ -28,47 +28,58 @@ install_gnome_extensions() {
 
     # Install gnome-shell-extension-installer if not present
     if ! command_exists gnome-extensions; then
-        log_error "gnome-extensions command not found. Please install gnome-shell-extensions package"
+        log_error "gnome-extensions command not found. Please install gnome-shell package"
         return 1
     fi
 
-    # Install gext (gnome extension manager) for automatic installation
-    local temp_dir=$(mktemp -d)
+    # Suggest Extension Manager
+    log_info "For easy extension installation, we recommend Extension Manager:"
+    echo ""
+    echo "  Install with: flatpak install flathub com.mattjakeman.ExtensionManager"
+    echo "  Or: sudo pacman -S extension-manager (Arch)"
+    echo "  Or: sudo dnf install gnome-extensions-app (Fedora)"
+    echo ""
 
-    if ! command_exists gext; then
-        log_info "Installing gnome-shell-extension-installer (gext)..."
-        cd "$temp_dir"
-        wget -O gnome-shell-extension-installer "https://github.com/brunelli/gnome-shell-extension-installer/raw/master/gnome-shell-extension-installer"
-        chmod +x gnome-shell-extension-installer
-        sudo mv gnome-shell-extension-installer /usr/local/bin/gext
-        cd -
+    if confirm "Install Extension Manager now?"; then
+        if command_exists flatpak; then
+            flatpak install -y flathub com.mattjakeman.ExtensionManager 2>/dev/null || log_warning "Failed to install Extension Manager"
+        else
+            local pm="$(detect_package_manager)"
+            case "$pm" in
+                pacman)
+                    sudo pacman -S --needed --noconfirm gnome-shell-extensions 2>/dev/null || true
+                    if command_exists yay; then
+                        yay -S --needed --noconfirm extension-manager 2>/dev/null || true
+                    fi
+                    ;;
+                dnf)
+                    sudo dnf install -y gnome-extensions-app 2>/dev/null || true
+                    ;;
+                apt)
+                    sudo apt install -y gnome-shell-extension-manager 2>/dev/null || true
+                    ;;
+            esac
+        fi
     fi
 
-    # Install extensions automatically
-    log_info "Installing GNOME extensions..."
+    # List extensions to install manually
+    echo ""
+    log_info "Extensions to install (use Extension Manager or extensions.gnome.org):"
+    echo ""
 
     while IFS= read -r extension_uuid; do
-        if [ -n "$extension_uuid" ]; then
-            log_info "Installing extension: $extension_uuid"
-            # Try to extract the extension ID from extensions.gnome.org
-            # Most extensions can be installed via gext by their UUID
-            if command_exists gext; then
-                gext install "$extension_uuid" --yes 2>/dev/null || log_warning "Could not auto-install: $extension_uuid"
-            else
-                log_warning "Manual installation needed: $extension_uuid"
-                echo "  https://extensions.gnome.org/extension/${extension_uuid}/"
-            fi
+        if [[ -n "$extension_uuid" ]] && [[ ! "$extension_uuid" = "#"* ]]; then
+            echo "  • $extension_uuid"
         fi
     done < "$gnome_dir/extensions/installed.txt"
 
-    rm -rf "$temp_dir"
+    echo ""
+    log_info "You can search for these extensions at: https://extensions.gnome.org"
+    echo ""
 
-    log_info ""
-    log_info "If automatic installation failed, install extensions manually from:"
-    log_info "  https://extensions.gnome.org"
-    log_info ""
-    log_info "Or install Extension Manager:"
-    log_info "  flatpak install flathub com.mattjakeman.ExtensionManager"
+    if confirm "Open extensions list in a text file for reference?"; then
+        cat "$gnome_dir/extensions/installed.txt"
+    fi
 }
 
 restore_gnome_settings() {

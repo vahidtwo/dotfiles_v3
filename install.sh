@@ -152,6 +152,21 @@ link_configs() {
     fi
 }
 
+setup_shell() {
+    log_info "Setting up shell environment..."
+
+    if [ ! -f "$DOTFILES_ROOT/scripts/setup-shell.sh" ]; then
+        log_warning "setup-shell.sh not found. Skipping shell setup."
+        return
+    fi
+
+    if confirm "Setup shell (Zsh, pyenv, Oh My Zsh)?"; then
+        bash "$DOTFILES_ROOT/scripts/setup-shell.sh"
+    else
+        log_info "Skipped shell setup"
+    fi
+}
+
 post_install() {
     log_info "Running post-installation tasks..."
 
@@ -220,6 +235,9 @@ main() {
     echo ""
 
     setup_shell
+    echo ""
+
+    setup_pycharm
     echo ""
 
     post_install

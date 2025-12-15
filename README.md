@@ -1,193 +1,260 @@
-# Dotfiles V3 - Automated Linux Migration System
+# Dotfiles V3
 
-A comprehensive dotfiles repository for backing up and restoring your entire Linux desktop environment, including system packages, GNOME extensions, application configurations, and settings.
+> Automated Linux dotfiles system with one-command setup
 
-## Features
+Designed for **Arch Linux** + **GNOME** + **Python development**. Works on Debian/Fedora too.
 
-- 🔄 **Automated Backup & Restore**: One-command setup for new machines
-- 📦 **Package Management**: Exports/imports all installed packages (apt/dnf/pacman, Flatpak, Snap, pip, npm, cargo)
-- 🎨 **GNOME Desktop**: Saves extensions, themes, keybindings, and dconf settings
-- ⚙️ **Application Configs**: Manages dotfiles using GNU Stow for symlink management
-- 💻 **IDE Support**: Backs up PyCharm, VS Code, Cursor, and all JetBrains IDEs
-- 🎯 **Editor Configs**: Vim, Neovim, LunarVim configurations
-- 🎨 **Prompt Themes**: Oh-My-Posh configuration and themes
-- 🔒 **Secure**: Excludes sensitive data with `.gitignore` patterns
-- 🐧 **Multi-distro**: Works with Ubuntu, Fedora, Arch, and derivatives
-
-## What's Backed Up
-
-### Editors & IDEs ✅
-- **Vim, Neovim, LunarVim** - Full configurations
-- **VS Code & Cursor** - Settings, keybindings, snippets, extensions
-- **JetBrains IDEs** - PyCharm, IntelliJ IDEA settings and plugins
-- **IdeaVim** - Vim emulation settings for JetBrains IDEs
-
-### Shell & Terminal ✅
-- **Zsh & Bash** - Shell configurations
-- **Oh-My-Posh** - Prompt theme engine configurations
-- **Kitty, Alacritty, Terminator** - Terminal emulator configs
-- **Tmux** - Terminal multiplexer settings
-
-### Tools & Utilities ✅
-- **Git** - Global git configuration
-- **Htop, Btop** - System monitors
-- **Ranger** - File manager
-- **Atuin** - Shell history sync
-
-### Desktop Environment ✅
-- **GNOME** - All settings, extensions, keybindings
-- **GTK** - Theme configurations
-
-See [BACKUP-GUIDE.md](BACKUP-GUIDE.md) for complete details.
+---
 
 ## Quick Start
 
-### Initial Setup (Current Machine)
+### On New System
 
-1. Clone this repository:
 ```bash
-git clone https://github.com/vahidtwo/dotfiles_v3.git ~/dotfiles
-cd ~/dotfiles
+git clone <your-repo> ~/dotfiles_v3
+cd ~/dotfiles_v3
+make install
 ```
 
-2. Backup your current system:
+**That's it!** One command installs everything. Then log out and log back in.
+
+### First Time (No Backups Yet)
+
 ```bash
-./scripts/backup.sh
+git clone <your-repo> ~/dotfiles_v3
+cd ~/dotfiles_v3
+make first-time    # Creates package lists + installs
 ```
 
-3. Commit and push your configurations:
+---
+
+## What `make install` Does
+
+Automatically:
+- ✅ Installs packages (pacman, AUR, flatpak, snap, pip, npm)
+- ✅ Sets up Zsh as default shell + Oh My Zsh + plugins
+- ✅ Installs and configures pyenv
+- ✅ Restores GNOME settings
+- ✅ Links all configs (vim, nvim, git, kitty, zsh, etc.)
+- ✅ Installs PyCharm (optional)
+
+**After install:** Log out and log back in!
+
+---
+
+## Make Commands
+
+### Main Commands
 ```bash
-git add .
-git commit -m "Initial backup from $(hostname)"
-git push
+make               # Show help
+make install       # Install everything (recommended)
+make backup        # Backup everything
+make first-time    # First time? Run this!
 ```
 
-### Restore on New Machine
-
-1. Clone the repository:
+### Individual Components
 ```bash
-git clone https://github.com/vahidtwo/dotfiles_v3.git ~/dotfiles
-cd ~/dotfiles
+make install-packages  # Packages only
+make install-gnome     # GNOME only  
+make install-pycharm   # PyCharm only
+make setup-shell       # Shell setup only
+make link              # Link configs only
+make unlink            # Unlink configs
 ```
 
-2. Run the installation script:
+### Backups
 ```bash
-./install.sh
+make backup            # Full backup
+make backup-packages   # Packages only
+make backup-gnome      # GNOME only
+make backup-configs    # Configs only
+make backup-fonts      # Fonts only
 ```
 
-The script will:
-- Install all system packages and applications
-- Restore GNOME extensions and settings
-- Create symlinks for all configuration files
-- Set up development environments
+### Git Operations
+```bash
+make sync              # Pull, backup, commit, push
+make commit            # Quick commit
+make push              # Push to remote
+make pull              # Pull changes
+make status            # Git status
+```
+
+### Utilities
+```bash
+make setup             # Create package lists from examples
+make clean             # Remove temp files
+make check             # Check for sensitive files
+```
+
+---
+
+## Package Management
+
+Package lists in `packages/`:
+- `pacman.txt` - Arch Linux packages
+- `aur.txt` - AUR packages (requires yay)
+- `flatpak.txt` - Flatpak apps
+- `snap.txt` - Snap packages
+- `pip.txt` - Python packages
+- `npm.txt` - NPM global packages
+
+Use `make setup` to create from examples, or `make backup-packages` to backup current system.
+
+---
+
+## Configuration Files
+
+All configs in `configs/` are symlinked automatically:
+- **Neovim** - `configs/nvim/`
+- **Vim** - `configs/vim/`
+- **Zsh** - `configs/zsh/`
+- **Git** - `configs/git/`
+- **Kitty** - `configs/kitty/`
+- **VS Code** - `configs/vscode/`
+- **PyCharm** - `configs/jetbrains/pycharm-settings/`
+- **GTK** - `configs/gtk-3.0/`, `configs/gtk-4.0/`
+- **btop** - `configs/btop/`
+
+Uses GNU Stow for symlink management.
+
+---
+
+## Migration Workflow
+
+### Old System
+```bash
+cd ~/dotfiles_v3
+make backup        # Backup everything
+make commit        # Commit changes
+make push          # Push to git
+```
+
+### New System
+```bash
+git clone <repo> ~/dotfiles_v3
+cd ~/dotfiles_v3
+make install       # Install everything
+# Log out and log back in
+```
+
+---
 
 ## Directory Structure
 
 ```
 dotfiles_v3/
-├── configs/          # Application configurations
-│   ├── zsh/         # Zsh configuration
-│   ├── bash/        # Bash configuration
-│   ├── git/         # Git configuration
-│   ├── vim/         # Vim configuration
-│   ├── nvim/        # Neovim configuration
-│   ├── lvim/        # LunarVim configuration
-│   ├── vscode/      # VS Code settings
-│   ├── cursor/      # Cursor AI editor
-│   ├── jetbrains/   # PyCharm, IntelliJ IDEA, etc.
-│   ├── oh-my-posh/  # Oh-My-Posh prompt themes
-│   ├── kitty/       # Kitty terminal
-│   ├── alacritty/   # Alacritty terminal
-│   ├── htop/        # System monitor
-│   ├── btop/        # Better system monitor
-│   ├── atuin/       # Shell history sync
-│   └── ...
-├── gnome/           # GNOME desktop environment
-│   ├── extensions/  # Extension list and settings
-│   └── settings/    # Dconf dumps
-├── packages/        # Package lists
-│   ├── apt.txt      # APT packages
-│   ├── flatpak.txt  # Flatpak applications
-│   ├── snap.txt     # Snap packages
-│   ├── pip.txt      # Python packages
-│   ├── npm.txt      # Node.js packages
-│   └── cargo.txt    # Rust packages
-├── scripts/         # Installation and backup scripts
-│   ├── backup.sh           # Backup current system
-│   ├── install-packages.sh # Install all packages
-│   ├── setup-gnome.sh      # Restore GNOME settings
-│   ├── link-configs.sh     # Symlink configurations
-│   └── utils.sh            # Utility functions
-├── install.sh       # Main installation script
-├── BACKUP-GUIDE.md  # Detailed backup documentation
-└── README.md        # This file
+├── Makefile           # Your main interface (use this!)
+├── install.sh         # Main installer (called by make)
+├── configs/           # App configs (auto-symlinked)
+├── packages/          # Package lists
+├── gnome/             # GNOME settings & extensions
+├── fonts/             # Custom fonts
+└── scripts/           # Helper scripts (use make commands instead)
 ```
 
-## Manual Usage
-
-### Backup Individual Components
-
-```bash
-# Backup packages only
-./scripts/backup.sh --packages
-
-# Backup GNOME settings only
-./scripts/backup.sh --gnome
-
-# Backup configs only
-./scripts/backup.sh --configs
-```
-
-### Restore Individual Components
-
-```bash
-# Install packages only
-./scripts/install-packages.sh
-
-# Restore GNOME settings only
-./scripts/setup-gnome.sh
-
-# Link configs only
-stow -d configs -t ~ zsh git vim
-```
-
-## Customization
-
-### Adding New Configs
-
-1. Create a new directory in `configs/` with your app name
-2. Structure it to mirror your home directory
-3. Run backup script to save current configs
-4. Use `stow` to create symlinks
-
-### Excluding Sensitive Data
-
-Edit `.gitignore` to exclude:
-- SSH keys
-- GPG keys
-- Tokens and passwords
-- Private configuration files
+---
 
 ## Requirements
 
 - Git
-- GNU Stow
-- Python 3
-- Bash/Zsh
+- Internet connection  
+- Sudo access
+
+Everything else is installed automatically.
+
+---
 
 ## Troubleshooting
 
-**Stow conflicts**: Remove existing dotfiles or use `stow --adopt` to merge
+### Package installation fails
+Some packages may not exist - that's OK. Install manually later.
 
-**Permission errors**: Some operations require sudo access
+### Zsh not default after install
+Log out and log back in (required for shell change).
 
-**Missing packages**: Script will skip unavailable packages on different distros
+### GNOME extensions not working
+Install Extension Manager: `flatpak install flathub com.mattjakeman.ExtensionManager`  
+Then install extensions via GUI.
+
+### Pyenv not working
+Restart terminal: `source ~/.zshrc`
+
+### Need to edit package lists?
+```bash
+vim packages/pacman.txt
+vim packages/aur.txt
+# Then run: make install-packages
+```
+
+---
+
+## Tips
+
+- **First time?** Run `make first-time`
+- **Migrating?** Run `make backup` on old system, `make install` on new
+- **Update configs?** Just edit files and `make backup`
+- **Sync multiple machines?** Use `make sync` regularly
+- **Don't want prompts?** `make install` handles everything
+- **Want control?** Use individual commands like `make install-packages`
+
+---
+
+## Features
+
+### Shell & Tools
+- Zsh with Oh My Zsh
+- Zsh plugins (autosuggestions, syntax highlighting)
+- Pyenv for Python version management
+- Starship prompt (optional)
+
+### GNOME Desktop
+- All settings backed up/restored
+- Extension Manager installed
+- Keybindings preserved
+- Favorite apps restored
+
+### Development
+- PyCharm (Community or Professional)
+- VS Code + extensions
+- All editor configs (vim, nvim)
+- Git configuration
+
+### Package Managers
+- Pacman (Arch)
+- AUR (via yay)
+- Flatpak
+- Snap
+- pip (Python)
+- npm (Node.js)
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## License
 
-MIT License - Feel free to use and modify
+MIT - See [LICENSE](LICENSE)
 
-## Credits
+---
 
-Inspired by the dotfiles community and best practices from various Linux users.
+## Quick Reference
+
+```bash
+# First time
+make first-time
+
+# Regular install
+make install
+
+# Backup
+make backup
+
+# Show all commands
+make help
+```
+
+**Remember:** Log out and log back in after installation!
 
