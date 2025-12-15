@@ -32,27 +32,43 @@ install_gnome_extensions() {
         return 1
     fi
 
-    # Read extension UUIDs from the list
+    # Install gext (gnome extension manager) for automatic installation
+    local temp_dir=$(mktemp -d)
+
+    if ! command_exists gext; then
+        log_info "Installing gnome-shell-extension-installer (gext)..."
+        cd "$temp_dir"
+        wget -O gnome-shell-extension-installer "https://github.com/brunelli/gnome-shell-extension-installer/raw/master/gnome-shell-extension-installer"
+        chmod +x gnome-shell-extension-installer
+        sudo mv gnome-shell-extension-installer /usr/local/bin/gext
+        cd -
+    fi
+
+    # Install extensions automatically
     log_info "Installing GNOME extensions..."
-    log_warning "Note: Extensions need to be installed manually from extensions.gnome.org"
-    log_info "Or use a tool like gnome-shell-extension-installer"
 
-    # Try to install extensions using gnome-extensions if possible
-    # Most reliable way is to list them for manual installation
-    cat "$gnome_dir/extensions/installed.txt"
-
-    # Install extension manager if available
-    local pm="$(detect_package_manager)"
-    case "$pm" in
-        apt)
-            if ! dpkg -l | grep -q gnome-shell-extension-manager; then
-                log_info "Consider installing Extension Manager: sudo apt install gnome-shell-extension-manager"
+    while IFS= read -r extension_uuid; do
+        if [ -n "$extension_uuid" ]; then
+            log_info "Installing extension: $extension_uuid"
+            # Try to extract the extension ID from extensions.gnome.org
+            # Most extensions can be installed via gext by their UUID
+            if command_exists gext; then
+                gext install "$extension_uuid" --yes 2>/dev/null || log_warning "Could not auto-install: $extension_uuid"
+            else
+                log_warning "Manual installation needed: $extension_uuid"
+                echo "  https://extensions.gnome.org/extension/${extension_uuid}/"
             fi
-            ;;
-        dnf)
-            log_info "Consider installing Extension Manager from Flathub"
-            ;;
-    esac
+        fi
+    done < "$gnome_dir/extensions/installed.txt"
+
+    rm -rf "$temp_dir"
+
+    log_info ""
+    log_info "If automatic installation failed, install extensions manually from:"
+    log_info "  https://extensions.gnome.org"
+    log_info ""
+    log_info "Or install Extension Manager:"
+    log_info "  flatpak install flathub com.mattjakeman.ExtensionManager"
 }
 
 restore_gnome_settings() {

@@ -219,6 +219,9 @@ main() {
     link_configs
     echo ""
 
+    setup_shell
+    echo ""
+
     post_install
     echo ""
 

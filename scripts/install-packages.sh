@@ -195,6 +195,27 @@ install_prerequisites() {
         install_package git
     fi
 
+    # Install yay for AUR packages (Arch Linux)
+    local pm="$(detect_package_manager)"
+    if [ "$pm" = "pacman" ] && ! command_exists yay; then
+        log_info "Installing yay (AUR helper)..."
+        log_info "This is required for AUR packages installation"
+
+        if confirm "Install yay now?"; then
+            local temp_dir=$(mktemp -d)
+            cd "$temp_dir"
+            sudo pacman -S --needed --noconfirm base-devel git
+            git clone https://aur.archlinux.org/yay.git
+            cd yay
+            makepkg -si --noconfirm
+            cd -
+            rm -rf "$temp_dir"
+            log_success "yay installed successfully"
+        else
+            log_warning "Skipping yay installation. AUR packages won't be installed."
+        fi
+    fi
+
     log_success "Prerequisites installed"
 }
 
